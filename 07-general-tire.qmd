@@ -1,0 +1,84 @@
+# Strange Bedfellow #2: General Tire — Tires, Films, Airlines, and ICBMs {#sec-gentire}
+
+> *"By 1963, Aerojet employed 34,000 people working on missiles such as the Polaris, Minuteman, Trident, and Titan."*
+
+If Morton Salt's ownership of rocket boosters is the industry's most consequential strange bedfellow story, General Tire & Rubber Company's ownership of Aerojet is the most absurd. At the height of the Cold War, the same parent company was simultaneously making tires, running radio stations, operating a movie studio bought from Howard Hughes, flying a commercial airline, and building stages for America's ICBMs.
+
+The story begins, like so many in this industry, with rubber chemistry.
+
+## The Rubber Connection (1942)
+
+When Aerojet Engineering Corporation was founded in 1942, its co-founders needed a binder for their early solid propellant formulations — a material that could hold oxidizer and fuel together in a stable, castable matrix. They turned to General Tire & Rubber Company of Akron, Ohio, which had the rubber chemistry expertise they needed.
+
+General Tire provided both the technical knowledge and startup capital, becoming a major Aerojet shareholder. For General Tire's management, the investment seemed logical: they were a rubber and materials company; Aerojet needed rubber chemistry expertise; the relationship made technical sense. The defense contracts provided a steady income stream independent of the civilian tire market.
+
+What no one anticipated was that this practical investment would eventually make General Tire the parent company of the dominant US liquid and solid rocket motor manufacturer.
+
+## The Diversification Empire
+
+Through the 1940s and 1950s, General Tire's management pursued a diversification strategy of staggering breadth. The company's SEC filings from this era read like a fever dream of mid-century American capitalism:
+
+**Media Empire:**
+- **1942:** Acquired the Yankee Network, a Boston-based chain of radio stations
+- **1948:** Moved into television, going on air at WNAC-TV Boston
+- **1955:** Purchased RKO Pictures from Howard Hughes — acquiring not just a film studio, but an entire film library (including King Kong and Citizen Kane), theatrical chains, and an international distribution network
+- **1958:** Sold the movie business to Desilu Productions (Lucille Ball and Desi Arnaz) — retaining the radio and television holdings
+
+**Transportation:**
+- **1964:** Acquired Frontier Airlines — a regional carrier operating primarily in the mountain west
+
+**Hospitality:**
+- **1965:** First hotel purchase — beginning what became a small chain
+
+**Core Manufacturing:**
+- Tires (the original business, eventually sold to Continental AG)
+- Synthetic rubber plants
+
+**Defense/Aerospace:**
+- Aerojet Engineering Corporation (major shareholder from 1942)
+
+The same boardroom that made decisions about the RKO film library and Frontier Airlines flight schedules was also overseeing the development of propulsion systems for Minuteman and Titan missiles. This was not unusual for the era — the conglomerate model was the dominant corporate strategy of the 1960s — but its application to rocket propulsion creates a particularly vivid illustration.
+
+## Why This Made (Some) Sense
+
+The conglomerate model of the 1960s was not irrational, despite how it looks in hindsight. The logic:
+
+**Diversification reduces risk.** A company with 10 unrelated businesses is less exposed to any single market downturn than a company with one. The tire business was cyclical. Defense contracts were steady. Media revenues were growing. The combination theoretically created a more stable entity.
+
+**Capital allocation.** A profitable core business (tires) generates cash that can be deployed into higher-growth businesses (defense, media). The parent becomes a capital allocator rather than a pure operator.
+
+**Conglomerate premium.** In the 1960s, Wall Street rewarded conglomerates with premium valuations, believing that professional management could run any business efficiently. This premium eventually collapsed in the 1980s as the weaknesses of the model became apparent.
+
+What the model could not adequately handle was the operational reality of managing genuinely different businesses. Running an airline requires different expertise than making tires, which requires different expertise than managing film distribution rights, which requires different expertise than overseeing rocket propulsion development. General Tire's management eventually had to acknowledge this reality.
+
+## The Unwind: GenCorp (1984)
+
+In 1984, General Tire & Rubber renamed itself GenCorp, Inc. and restructured as a holding company — acknowledging that it was a portfolio of businesses rather than a unified operating company. The new structure was meant to allow each subsidiary to operate more independently.
+
+The tire business was eventually sold to Continental AG of Germany — the irony of an American tire company selling to a German competitor was not lost on observers. Frontier Airlines went through deregulation and was eventually absorbed into other carriers. The media properties were sold.
+
+By the late 1990s and 2000s, GenCorp's two remaining businesses were Aerojet and Easton Real Estate — the latter managing the enormous Sacramento land holdings Aerojet had accumulated for its test facilities.
+
+## The Final Chapter: Tires to Rocketdyne
+
+In July 2012, GenCorp agreed to buy Pratt & Whitney Rocketdyne from United Technologies Corporation for $550 million. The acquisition completed in June 2013, and GenCorp immediately merged Rocketdyne with Aerojet to form Aerojet Rocketdyne. The corporate name changed to Aerojet Rocketdyne Holdings in 2015.
+
+A company that started as a tire manufacturer in Akron in 1915 had, over a century, become the parent of the combined Aerojet and Rocketdyne propulsion heritage — two of the most significant lineages in American rocket history. The tire company owned the engines that went to the moon.
+
+L3Harris acquired Aerojet Rocketdyne in 2023 for $4.7 billion, ending the General Tire lineage's independence.
+
+## The Incest Angle: Competing Alongside Your Parent
+
+The General Tire / Aerojet relationship illustrates another dimension of the industry's incestuous character: the parent-child competitive dynamic. Aerojet competed for solid rocket motor contracts against Thiokol and Hercules throughout the 1960s–1990s. Those competitors' parent companies — Morton Salt, Honeywell, eventually ATK — were not themselves in the tire or rubber business. There was no direct parent-level competition between General Tire and Morton.
+
+But at the technical and engineering level, the competition was fierce and personal. Engineers at Aerojet Sacramento and Hercules Bacchus Works and Thiokol Promontory competed, collaborated (on Peacekeeper stages where different companies held different stages), and circulated among employers throughout their careers. The General Tire parentage was largely irrelevant to the day-to-day technical work — which is precisely the point. The corporate structure could be as strange as the market allowed; the engineering culture was its own thing.
+
+## Exercises
+
+1. General Tire's 1955 acquisition of RKO Pictures from Howard Hughes was one of the most unusual corporate transactions of the 1950s. Research this acquisition. What did Hughes receive, and why did he sell? What did General Tire do with the RKO assets?
+
+2. The conglomerate model of the 1960s — acquiring unrelated businesses to diversify risk — fell out of favor in the 1980s when corporate raiders began breaking up conglomerates and returning cash to shareholders. What killed the conglomerate model? Does any version of it survive in modern corporate strategy?
+
+3. General Tire sold its tire business to Continental AG — a German company. Research Continental AG's history. Is there irony in an American Cold War defense contractor's parent company being acquired by a German firm?
+
+4. Map the evolution of Aerojet's ownership: General Tire → GenCorp → Aerojet Rocketdyne Holdings → L3Harris. At each transition, what changed in terms of corporate strategy, investment priorities, and management culture? What stayed the same?

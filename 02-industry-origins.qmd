@@ -1,0 +1,90 @@
+# The Founding Era: Explosives, JATO, and the Birth of an Industry {#sec-origins}
+
+> *"What we were trying to do was make a rocket engine that would get a heavily loaded airplane off a short runway. We had no idea what we were starting."*
+> — Frank Malina, GALCIT, 1939
+
+::: {.callout-note appearance="simple"}
+## Learning Objectives
+- Trace the technical and institutional origins of American solid rocket propulsion from the interwar period through the early Cold War
+- Understand why WWII JATO work created the personnel networks that later populated the commercial solid rocket industry
+- Identify the government programs — Polaris, Minuteman — that converted research capability into production-scale industrial capacity
+:::
+
+## The Explosives Heritage
+
+The American solid rocket industry did not begin with rockets. It began with explosives.
+
+The chemical knowledge, the manufacturing infrastructure, the workforce skills, and the corporate entities that would eventually produce ICBMs and space launch vehicle motors in the 1960s were assembled over the preceding century in the explosives business. Black powder, nitrocellulose, dynamite, smokeless powder — each represented a stage in the accumulation of energetic materials chemistry and processing capability that solid rocket propellants would eventually draw on.
+
+Three facts about the explosives industry shaped its eventual contribution to rocketry:
+
+**Production scale.** By 1940, American explosives manufacturers had built large-scale energetic materials processing facilities that could be converted — with varying degrees of difficulty — to propellant production. The infrastructure existed. Skilled workers who understood hazardous materials handling, quality control in energetic chemistry, and the organizational discipline that large-scale production of dangerous materials required — these people existed.
+
+**Government relationships.** Explosives manufacturers operated under close government oversight, particularly after the munitions mobilizations of World War I. These relationships — with the Army Ordnance Department, the Naval Powder Factory, the Bureau of Mines — established the contracting and oversight patterns that defense solid propulsion would inherit.
+
+**Geographic concentration.** Explosives production clustered in specific regions: New Jersey (DuPont's Carney's Point; Hercules' Kenvil), Maryland (the Naval Powder Factory at Indian Head), Utah (Hercules' Bacchus Works), and California (several facilities). This geographic concentration persists in the solid rocket industry today, for reasons that begin with explosives plant siting logic: remote enough for safety, close enough to rail and labor markets.
+
+## JATO and the GALCIT Circle
+
+The technical origins of American solid rocket propulsion are conventionally traced to the California Institute of Technology's Guggenheim Aeronautical Laboratory (GALCIT) in the late 1930s. The GALCIT Rocket Research Group — eventually formalized as the Air Corps Jet Propulsion Research Project in 1939 — was commissioned to develop Jet-Assisted Take-Off (JATO) units for heavily loaded military aircraft.
+
+The group included figures who would define the first generation of American rocketry: Frank Malina, John Parsons, Edward Forman, Martin Summerfield, and, in an advisory capacity, Theodore von Kármán. Their approach to solid propellant was pragmatic: they needed something that would burn reliably, at predictable thrust, without deflagration-to-detonation transition, and that could be manufactured in the quantities the Army Air Corps wanted.
+
+The solution they arrived at — an asphalt-potassium perchlorate composite propellant, later refined to use ammonium picrate — was crude by later standards but it worked. More important than the chemistry was the community. The GALCIT group was small: perhaps twenty core personnel at its peak. When it dissolved into various successor organizations after the war, those twenty people seeded virtually every significant solid rocket development program in the United States for the next decade.
+
+The most consequential institutional successor was the Jet Propulsion Laboratory, formally established in 1944. But equally important were the private companies that GALCIT alumni founded or joined: Aerojet Engineering Corporation (1942), and the consulting and contracting networks that carried GALCIT methodology into government laboratories and eventually into the commercial sector.
+
+## The WWII Mobilization
+
+The military requirements of World War II transformed what had been a small university research effort into a production industry.
+
+JATO units were needed in large numbers — for carrier aircraft takeoff, for heavy bomber assist, for transport operations in high-altitude or short-field conditions. The Army and Navy contracted with multiple suppliers, including established explosives manufacturers who could ramp production quickly.
+
+The critical technical development of the WWII period was the transition from double-base propellants (nitrocellulose/nitroglycerin formulations borrowed from the smokeless powder industry) to the composite propellants that would eventually enable the large motors the ICBM programs required.
+
+Double-base propellants had been the workhorse of military rocketry since World War I: the German *Nebelwerfer* rockets, the British unguided anti-submarine rockets, the American bazooka. They burned predictably and could be manufactured in the existing smokeless powder infrastructure. But their energy density was limited, and they could not be scaled to the large grain sizes that the postwar strategic programs demanded without severe manufacturing and structural problems.
+
+Composite propellants — a fuel binder combined with an oxidizer in particulate form — offered a path around both limitations. By the late 1940s, ammonium perchlorate (AP) had emerged as the preferred oxidizer, and polyurethane then polybutadiene binders as the preferred fuel-binder systems. The Jet Propulsion Laboratory played a central role in this development; so did Thiokol Chemical Corporation, whose polysulfide rubber binders offered an early alternative that proved well-suited to large-scale production.
+
+## Naval Research and the Polaris Catalyst
+
+The strategic catalyst for industrial-scale solid rocket production was not the Air Force but the Navy.
+
+In the mid-1950s, the Navy faced a fundamental strategic problem: its submarines, the most survivable leg of the nuclear triad, could not carry the ballistic missiles that the Eisenhower administration wanted to field against Soviet cities. The liquid-propellant missiles under development — based on the technology being developed for the Air Force's Atlas and Titan ICBMs — were too large, too volatile, and too hazardous for submarine operation.
+
+The Navy's solution was to gamble on solid propulsion. In 1956, the Polaris Special Projects Office was established under Rear Admiral William Raborn with the explicit mission of developing a submarine-launched ballistic missile using solid propellant motors. Polaris, if it worked, would require solid rocket motors that were radically larger than anything previously manufactured — and that had to meet reliability, safety, and performance requirements more demanding than any previous solid rocket application.
+
+The Polaris program defined the industrial scale of American solid rocket production. It required large-scale manufacturing facilities, quality systems unprecedented in the industry, and a workforce trained in propellant chemistry and processing at levels the existing industry could not supply. The government funded the construction of new facilities — including major expansions at Hercules' Bacchus Works and Aerojet's Sacramento facility — and the training programs that created the workforce.
+
+More important than any single facility was the effect Polaris had on the community of practice. The program pulled engineers and chemists from the explosives industry, from university research groups, and from the small existing JATO manufacturers and concentrated them in a common technical project. The relationships, the informal knowledge networks, and the shared technical vocabulary that resulted were the true founding legacy of Polaris — more durable than any of the hardware.
+
+## Minuteman and the Industrialization of ICBMs
+
+Where Polaris defined the technical scale of solid propulsion, Minuteman — the Air Force's land-based ICBM program initiated in 1958 — defined its industrial scale.
+
+The Minuteman program required thousands of missiles, not hundreds. Its three-stage configuration used solid motors from different manufacturers: Stage 1 from Thiokol, Stage 2 from Aerojet, Stage 3 from Hercules. This division was not accidental. The Air Force, advised by technical experts who had come largely from the GALCIT circle and its successor institutions, structured the program to maintain competitive capability across multiple suppliers — partly to ensure supply security, partly to preserve the competitive pressure that would maintain technical advancement.
+
+The result was that three major companies simultaneously invested in large-scale solid propellant production capability, in parallel with the development of the technical skills and organizational systems that large-scale production required. By the time Minuteman reached full production in the mid-1960s, the American solid rocket industry had the facilities, the workforce, and the institutional capacity to support the strategic arsenal.
+
+The community that Minuteman created — the community that called itself incestuous — was precisely this: the several thousand engineers, chemists, quality specialists, and program managers distributed across Thiokol's Promontory facility, Hercules' Bacchus Works, Aerojet's Sacramento plant, and a dozen ancillary facilities, all connected by the shared technical problems of solid propulsion and by the personnel networks that the Polaris and Minuteman programs had assembled.
+
+## Summary
+
+| Period | Key Development | Industrial Consequence |
+|--------|----------------|----------------------|
+| Pre-1940 | Explosives industry accumulation | Facilities, skilled labor, government relationships |
+| 1939–1945 | GALCIT JATO program; WWII mobilization | Technical foundations; personnel network established |
+| 1944 | JPL formalization | Institutional R&D anchor for the field |
+| 1942 | Aerojet founding | First dedicated solid/liquid rocket commercial firm |
+| 1956–1960 | Polaris program | Industrial scale investment; workforce training |
+| 1958–1965 | Minuteman production | Three-supplier industrial base at production scale |
+
+The chapters that follow trace what happened to this industrial base after the Cold War demand that created it began to collapse.
+
+## Further Reading
+
+- Winter, Frank H. *Rockets into Space*. Harvard University Press, 1990.
+- Malina, Frank J. "The GALCIT Rocket Research Project, 1936–1938." *Essays on the History of Rocketry and Astronautics*. NASA, 1977.
+- Spinardi, Graham. *From Polaris to Trident*. Cambridge University Press, 1994.
+- Neufeld, Michael J. *The Rocket and the Reich*. Harvard University Press, 1995. (Chapter on American technical intelligence and JATO.)
+- MacKenzie, Donald. *Inventing Accuracy: A Historical Sociology of Nuclear Missile Guidance*. MIT Press, 1990.

@@ -1,0 +1,94 @@
+# Two Survivors: The Duopoly and What Comes Next {#sec-duopoly}
+
+> *"There are now technically two companies that still manufacture large solid rockets for military ICBMs — Aerojet Rocketdyne and Northrop Grumman Innovation Systems."*
+> — SpaceNews, 2018
+
+Seven Cold War suppliers. Fifty years of mergers, acquisitions, spinoffs, disasters, and consolidation. Two survivors.
+
+This is where the family tree ends — for now.
+
+## The Duopoly
+
+**Northrop Grumman Innovation Systems (NGIS)**, created when Northrop Grumman acquired Orbital ATK in June 2018 for $7.8 billion, is the dominant player. NGIS contains the propulsion heritage of Thiokol, Hercules, and Orbital Sciences — the three largest Cold War solid rocket lineages — plus Northrop's own legacy propulsion work.
+
+Current NGIS programs include:
+- **Trident II D5** — all three stages of the Navy's primary nuclear deterrent
+- **Minuteman III** — sustaining production and heritage programs
+- **LGM-35A Sentinel** — the Minuteman III replacement, the most significant new ICBM program in decades
+- **SLS Five-Segment SRB** — the solid rocket boosters for NASA's Space Launch System
+- **Ground-Based Midcourse Defense** — interceptor motors for missile defense
+- **Pegasus XL** — the air-launched rocket (final flights being conducted)
+- **Antares / Cygnus** — ISS resupply missions
+- **Orion Launch Abort Motor and Attitude Control Motor**
+
+Northrop Grumman has 100-percent propulsion success on strategic production motors — a record the company prominently advertises, with good reason.
+
+**L3Harris / Aerojet Rocketdyne**, formed when L3Harris Technologies acquired Aerojet Rocketdyne in July 2023 for $4.7 billion, is the competitor. Aerojet Rocketdyne contains the propulsion heritage of Aerojet, Atlantic Research Corporation, General Dynamics Space Systems, and Rocketdyne.
+
+Current Aerojet Rocketdyne programs include:
+- **RS-25 engine** — the main engines for NASA's Space Launch System
+- **RL-10 engine** — the workhorse upper-stage engine used on Centaur, SLS upper stage
+- **Ground-Based Interceptor** — solid motors for missile defense
+- **Sentinel ICBM** — competing for propulsion contracts against Northrop
+- **AJ-60A** — strap-on solid boosters for Atlas V
+- Various tactical missile motors
+
+## The FTC's Role
+
+The Federal Trade Commission has been the structural architect of this duopoly — both by allowing the consolidation that created it and by setting limits on further consolidation.
+
+**The Northrop-Orbital ATK approval (2018):** The FTC approved the acquisition but required Northrop to supply solid rocket motors to competitors on a non-discriminatory basis. This was designed to prevent Northrop from using its SRM dominance to disadvantage competitors in launch vehicle and missile programs.
+
+**The Lockheed-Aerojet Rocketdyne rejection (2022):** The FTC voted 4-0 to block Lockheed Martin's $4.4 billion acquisition of Aerojet Rocketdyne, ruling that Lockheed's vertical integration would disadvantage other defense contractors who depended on Aerojet for propulsion. Lockheed abandoned the deal in February 2022.
+
+**The L3Harris acquisition (2023):** When L3Harris acquired Aerojet Rocketdyne for $4.7 billion, the FTC approved the deal. L3Harris — primarily a defense electronics and communications company — was not seen as creating the same vertical integration concerns as Lockheed, since L3Harris does not itself manufacture missiles, spacecraft, or launch vehicles that would directly benefit from preferential propulsion access.
+
+The FTC's distinction between the Lockheed rejection and the L3Harris approval illustrates the regulatory logic: it is not the size of the transaction that matters, but whether the acquirer competes with the customers who depend on the target's products.
+
+## The Sentinel: First New ICBM in Decades
+
+The LGM-35A Sentinel program — the Air Force's replacement for the aging Minuteman III — is the most consequential solid rocket motor program in decades. Northrop Grumman is the prime contractor for the missile itself and holds the propulsion contract. Aerojet Rocketdyne is competing for portions of the propulsion work.
+
+The Sentinel's development has been troubled. In January 2024, the Air Force disclosed that the program's cost had grown by more than 37%, triggering a Nunn-McCurdy breach requiring Congressional notification and program review. The cost growth reflects both the difficulty of developing a new ICBM from scratch and the challenges of maintaining an industrial base that has contracted significantly since the Minuteman was developed in the 1960s.
+
+The institutional knowledge that designed Minuteman — the engineers who understood solid propellant grain geometry, case design, nozzle dynamics at operational scale — has largely retired or died. Rebuilding that capability is one of the defining challenges of the Sentinel program.
+
+## New Space: The Third Category
+
+The duopoly describes the strategic/large solid rocket motor market. Below it, a new category of solid rocket motor manufacturer is emerging in the New Space era:
+
+**Rocket Lab** — the New Zealand/American launch company, produces solid kick stages (Curie, Photon) and is developing larger solid motor components.
+
+**Firehawk Aerospace** — a Texas-based startup developing hybrid and solid motors for tactical and commercial applications.
+
+**Evolution Space** — focused on small tactical solid motors.
+
+**SpinLaunch** — though not a traditional SRM company, represents alternative propulsion approaches.
+
+None of these New Space companies currently competes with Northrop or L3Harris/Aerojet Rocketdyne for strategic (nuclear deterrent) solid rocket motors. The barriers to entry in that segment — the technical requirements, the security clearances, the regulatory frameworks, the testing infrastructure — remain formidable.
+
+## The Open Question: Is Two Enough?
+
+Defense analysts have debated whether a duopoly is sufficient for the strategic solid rocket motor industrial base. The concern is not primarily about price — the government is the only customer, and it can regulate pricing — but about resilience. If one supplier suffers a significant accident, a facility fire, a quality escape, or a production disruption, is there sufficient capacity and capability at the other to maintain deterrence?
+
+The Challenger O-ring failure demonstrated that a single production problem at a single company can ground the entire US space launch fleet. The Minuteman III force currently depends on aging motors that are increasingly difficult to maintain. The Sentinel program is behind schedule and over budget.
+
+These are not merely industrial policy questions. They are questions about whether the United States maintains the capacity to build and sustain the weapons systems it has decided are essential to its national security — and whether the consolidation that made business sense in the 1990s has created strategic vulnerabilities it was too early to see.
+
+## A Final Word on the Incest
+
+The industry that set out to design and manufacture the most destructive weapons in human history ended up being run by salt merchants, tire makers, thermostat companies, aluminum producers, and jar makers. The engineers who actually built the motors — who understood propellant chemistry, grain design, nozzle erosion, case structural margins — persisted through every corporate transformation, carrying institutional knowledge that no merger agreement could transfer or no acquisition price could fully capture.
+
+That is what "incestuous community" really means. Not that the corporate names are familiar, but that the people are. The engineer who started at Thiokol in 1965, transferred to ATK in 2001, retired from Northrop Grumman in 2018 — their career is the continuity that the family tree represents in organizational charts but cannot fully capture.
+
+The corporations come and go. The knowledge stays.
+
+## Exercises
+
+1. The FTC approved the L3Harris acquisition of Aerojet Rocketdyne but blocked the Lockheed acquisition. Construct the economic argument for each decision. Do you find the FTC's reasoning consistent?
+
+2. The Sentinel ICBM program experienced a 37%+ cost growth, triggering a Nunn-McCurdy breach. Research the Nunn-McCurdy Act. What does it require when cost growth exceeds thresholds? What are the likely outcomes for the Sentinel program?
+
+3. The industrial base for strategic solid rocket motors has contracted from seven suppliers to two. Construct a national security argument for maintaining more than two suppliers. Then construct the counter-argument that two suppliers are sufficient. Which do you find more persuasive?
+
+4. This book began with the premise that the solid rocket industry is an "incestuous community." Having read the lineages, the strange bedfellows, and the consolidation history — do you agree? Is the incest primarily corporate (entities merging and splitting), human (engineers moving between companies), or technical (propellant chemistry and design knowledge transferring)?

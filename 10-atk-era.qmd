@@ -1,0 +1,90 @@
+# The ATK Era: When One Company Ate the Industry {#sec-atk}
+
+> *"With the Thiokol acquisition, ATK became the dominant supplier of solid-fuel rocket motors."*
+> — Utah History Quarterly
+
+Alliant Techsystems — ATK — is the company that consolidated the American solid rocket industry. Between 1990 and 2015, it assembled the Thiokol, Hercules, and supporting propulsion heritage under a single roof, becoming the largest solid rocket motor manufacturer in the world and, for a time, the largest ammunition manufacturer in the United States simultaneously.
+
+The story of ATK is the story of one company making a series of acquisitions so consequential that they permanently restructured a strategic industry.
+
+## The Honeywell Spinoff (1990)
+
+ATK was launched as an independent company in 1990, when Honeywell spun off its defense businesses to shareholders. The former Honeywell businesses had supplied defense products and systems to the US and its allies for 50 years. The initial ATK was primarily a propellants, ammunition, and defense systems manufacturer — significant, but not yet dominant in solid rocket motors specifically.
+
+The transformation came through two acquisitions.
+
+## Hercules Aerospace: The First Acquisition (1995)
+
+In 1995, ATK purchased **Hercules Aerospace Company** from Hercules, Inc. for approximately $450 million. The acquisition brought:
+
+- The **Bacchus Works** in Magna, Utah — the 1913 dynamite plant that had become a premier solid rocket facility
+- The **Trident II D5** propulsion program — all stages for the Navy's primary submarine-launched ballistic missile
+- The **Pegasus** rocket motor production — the Orion 50, 50XL, and 38 stages
+- The **Minuteman III Stage 3** heritage and any sustaining work
+- Filament-wound graphite composite casing technology
+- Approximately 4,500 skilled workers in Utah
+
+ATK already had a presence in Utah through its existing operations. The Hercules acquisition transformed it from a presence into a dominant force. The Bacchus Works — after operating under six corporate owners since 1913 — was now part of ATK.
+
+## Cordant/Thiokol: The Decisive Acquisition (2001)
+
+The Thiokol acquisition was the larger and more consequential move. The path was indirect:
+
+1. Thiokol renamed itself **Cordant Technologies** in 1998, acquiring Howmet International and Huck International
+2. In 2000, **Alcoa** acquired Cordant, forming AIC Group — wanting primarily the Howmet casting business
+3. In April 2001, ATK purchased the propulsion assets from AIC/Alcoa for **$2.9 billion**
+
+The $2.9 billion figure was the largest acquisition in ATK's history and one of the largest transactions in the solid rocket industry. It brought:
+
+- **Thiokol Propulsion** — the primary manufacturer of the Space Shuttle solid rocket boosters
+- The **Promontory, Utah** facility — over 10,000 acres of test infrastructure
+- **Minuteman III Stage 1** heritage
+- **Star 37 and Star 48** upper stage motors — the workhorses of interplanetary spacecraft separation
+- The Shuttle SRB program sustaining work
+
+With the Thiokol acquisition, ATK controlled the lion's share of the US solid rocket fuel market. ATK built the third stage of the Trident missile [via Hercules] and had earlier bought Hercules Aerospace Co., builder of the second stage. With Thiokol, ATK now owned first stage heritage as well.
+
+## Ammunition: The Unexpected Expansion
+
+Also in 2001, ATK acquired the ammunition businesses of Blount International — including Federal Premium, CCI, and Speer brands. This made ATK the nation's largest manufacturer of ammunition. The decision to combine a dominant solid rocket motor business with a dominant commercial ammunition business in one company was unusual even by the standards of the defense industry.
+
+The rationale: both businesses involved energetic materials (propellants and propellant chemistry), both involved precision manufacturing, and both involved long-term government contracts alongside commercial sales. ATK's propellant expertise was genuinely applicable across both product lines.
+
+The ammunition business eventually became ATK's Sporting Group and was spun off in 2015 as Vista Outdoor — a publicly traded company that continues to operate the Federal, CCI, and Speer brands.
+
+## The Shuttle Era Programs
+
+During the ATK era, the company was the sole manufacturer of the reusable Solid Rocket Motor used to launch the NASA Space Shuttle. After the Shuttle program ended in 2011, ATK developed the five-segment solid rocket booster for NASA's Space Launch System — a significant redesign and upscale of the four-segment Shuttle SRB.
+
+ATK also produced the launch abort motor for NASA's Orion capsule — a small but critical solid motor that would pull the capsule away from an exploding rocket during a launch abort.
+
+## The Merger: Orbital ATK (2014–2015)
+
+On April 29, 2014, ATK announced its board had unanimously approved a plan to split the company and merge its aerospace and defense operations with **Orbital Sciences Corporation**.
+
+The structure:
+- ATK's **Sporting Group** was spun off to ATK shareholders as **Vista Outdoor** (tax-free)
+- ATK's **Aerospace and Defense Groups** merged with Orbital Sciences to form **Orbital ATK**
+- Orbital Sciences shareholders received ATK common stock
+
+The merger closed February 9, 2015. Orbital ATK began operations February 20, 2015.
+
+The merger made strategic sense: Orbital Sciences had launch vehicle capabilities (Pegasus, Taurus, Minotaur, Antares) and satellite manufacturing; ATK had dominant solid rocket motor production. Together, they formed a vertically integrated aerospace and defense company — the motors and the vehicles that used them under one roof.
+
+Northrop Grumman acquired Orbital ATK in June 2018 for $7.8 billion — bringing the entire consolidated ATK lineage (Thiokol heritage, Hercules heritage, Orbital Sciences launch vehicles) into the second-largest defense contractor in the United States.
+
+## The Legacy
+
+ATK's 25-year consolidation (1990–2015) permanently restructured the American solid rocket industry. By the time Northrop absorbed Orbital ATK, the seven Cold War suppliers had been reduced to effectively one dominant player (Northrop/ATK heritage) and one competitor (Aerojet Rocketdyne). The consolidation was complete.
+
+The Promontory facility — once Thiokol, then Morton Thiokol, then Thiokol Corporation, then Cordant, then AIC Group, then ATK Thiokol, then ATK Launch Systems Group, then Orbital ATK — now operates as **Northrop Grumman Promontory**. The name on the gate changes. The test stands remain.
+
+## Exercises
+
+1. ATK paid $2.9 billion for Cordant/Thiokol in 2001. Research what that implies about Thiokol's valuation metrics at the time. Was this a fair price for the seller? For the buyer?
+
+2. The decision to combine solid rocket motors and commercial ammunition in one company (via the Blount acquisition) was unusual. Construct the pro and con arguments for this combination. Which would you find more persuasive as an ATK board member in 2001?
+
+3. The Orbital ATK merger was structured to spin off the Sporting Group to ATK shareholders while merging the aerospace business with Orbital Sciences. Research the tax and structural logic of this transaction. Why was it structured this way rather than as a simple merger?
+
+4. Northrop Grumman paid $7.8 billion for Orbital ATK in 2018. Research what programs Northrop was acquiring and evaluate whether this was a fair price given the backlog, programs, and strategic value of the combined entity.

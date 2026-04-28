@@ -1,0 +1,84 @@
+# The Great Contraction: Seven to Two {#sec-contraction}
+
+> *"During the Cold War, the Pentagon bought enough solid rocket motors for intercontinental ballistic missiles to support seven suppliers. The demand for solid motors collapsed in the 1990s and dropped even further after NASA retired the space shuttle."*
+> — SpaceNews, 2018
+
+The Berlin Wall fell on November 9, 1989. Within months, the defense budget that had sustained seven solid rocket motor manufacturers began to contract. What followed was the most rapid and complete consolidation of a major American defense industrial sector since World War II.
+
+## The Peak: Seven Suppliers (circa 1980)
+
+At the height of the Cold War, the following companies maintained significant solid rocket motor manufacturing capabilities:
+
+1. **Thiokol** — Promontory, UT and Elkton, MD
+2. **Hercules Aerospace** — Bacchus Works (Magna, UT) and Kenvil, NJ
+3. **Aerojet General** — Rancho Cordova, CA
+4. **Atlantic Research Corporation** — Alexandria, VA
+5. **United Technologies Chemical Systems Division (CSD)** — Sunnyvale, CA
+6. **Olin Aerospace** (formerly Rocket Research Corporation) — Redmond, WA
+7. **Rocketdyne** (primarily liquid, with some solid capability)
+
+Each maintained multiple facilities. Collective direct employment in solid rocket propulsion exceeded 50,000 people.
+
+## The Demand Collapse
+
+The post-Cold War demand destruction hit on multiple fronts simultaneously:
+
+**ICBM production ended.** The Minuteman production run was long over; the Peacekeeper was being cancelled. No new land-based ICBM was in development. The steady sustaining production that had kept facilities viable for decades simply stopped.
+
+**The Shuttle manifest shrank.** NASA's planned Shuttle flight rate — which had been projected at 24 flights per year in the early 1980s — never materialized. Post-Challenger, the actual rate rarely exceeded 8 flights per year. Each flight consumed one set of Thiokol solid rocket boosters; fewer flights meant fewer motors.
+
+**Peacekeeper retirement (2005).** The last MX Peacekeeper was deactivated on September 19, 2005, under the terms of the START II Treaty. Its 50 motors — representing the work of Thiokol, Aerojet, Hercules, and Rocketdyne across four stages — went to surplus. Orbital Sciences converted the Peacekeeper's motors into Minotaur launch vehicles.
+
+**Base closures.** The Base Realignment and Closure (BRAC) process of the 1990s eliminated many of the government facilities — Army ammunition plants, Naval ordnance stations — that had provided sustaining work for the solid rocket industrial base.
+
+## The Consolidation Wave
+
+The industry responded by merging — rapidly and completely.
+
+**1995:** ATK acquires **Hercules Aerospace** from Hercules, Inc. for approximately $450M. The Bacchus Works joins ATK's growing portfolio. Hercules's Kenvil, NJ operations cease in 1996.
+
+**1996:** United Technologies' **Chemical Systems Division** (CSD) is acquired by **Thiokol Corporation** (then renamed Cordant Technologies). CSD's Sunnyvale facilities and Trident-related work transfer to the Thiokol lineage.
+
+**1998:** **Thiokol Corporation** renames itself **Cordant Technologies**, simultaneously acquiring Howmet International and Huck International to diversify beyond rockets.
+
+**2000:** **Cordant Technologies** merges with Alcoa divisions to form **AIC Group**. The rocket motor business is briefly an aluminum company subsidiary.
+
+**2001:** **ATK** purchases AIC Group's propulsion assets for $2.9 billion — also acquiring Thiokol's Promontory, UT facility and all related programs. ATK also acquires Blount International's ammunition businesses.
+
+**2002-2003:** **Aerojet** acquires General Dynamics Space Systems' propulsion business and **Atlantic Research Corporation**. Two of the seven Cold War suppliers are absorbed into Aerojet.
+
+**2013:** **GenCorp** acquires Pratt & Whitney Rocketdyne for $550M and merges it with Aerojet to form **Aerojet Rocketdyne**.
+
+By 2013, seven suppliers had become two: ATK and Aerojet Rocketdyne.
+
+## The FTC's Vigilance
+
+The Federal Trade Commission watched the consolidation carefully. When Northrop Grumman announced its acquisition of Orbital ATK (which contained ATK's solid rocket heritage) in 2017, the FTC required Northrop to supply solid rocket motors to competitors on a non-discriminatory basis as a condition of approval.
+
+When Lockheed Martin attempted to acquire Aerojet Rocketdyne in 2020–2022, the FTC blocked it entirely on the grounds that it would eliminate the only independent solid rocket motor manufacturer and give Lockheed vertical integration advantages over competitors. This was the most aggressive FTC action in the solid rocket industry since the original Sherman Act case against DuPont in 1912.
+
+## The Human Cost
+
+The consolidation eliminated tens of thousands of high-skill, high-wage jobs in specific communities that had no equivalent employers. Promontory, Utah — essentially a company town built around the Thiokol facility — survived because ATK and then Northrop continued operations. Kenvil, New Jersey did not survive — the facility closed in 1996, ending 80 years of energetic materials manufacturing.
+
+Sacramento's Aerojet complex — which had employed over 20,000 people during the 1960s space race — was reduced to a fraction of that workforce by the 2010s, with manufacturing operations being consolidated away from the original site.
+
+The industrial towns built around these facilities — Magna, Utah; Kenvil, New Jersey; portions of Sacramento County — bear the marks of this contraction in their economic statistics to this day.
+
+## What Survived: The Two Survivors
+
+**Northrop Grumman Innovation Systems** — containing the Thiokol, Hercules, and Orbital Sciences heritage — holds the dominant position. Its programs include Trident II D5 (all three stages), Minuteman III sustaining, SLS five-segment solid rocket boosters, Ground-Based Midcourse Defense interceptor motors, and the emerging LGM-35A Sentinel (Minuteman replacement).
+
+**L3Harris / Aerojet Rocketdyne** — containing the Aerojet, Atlantic Research, CSD, and Rocketdyne heritage — holds the second position. Its programs include Ground-Based Interceptor (some programs), RS-25 engine (SLS liquid), RL-10 engine (Centaur upper stage), and various tactical missile motors.
+
+The FTC's requirement that Northrop supply motors to competitors on a non-discriminatory basis is the only structural protection preventing this from becoming a functional monopoly.
+
+## Exercises
+
+1. Map the 1990–2013 consolidation as a timeline showing each acquisition, the acquiring entity, the acquired entity, and the approximate transaction value. What is the total capital deployed in the consolidation? Who were the winners and losers financially?
+
+2. The BRAC process eliminated government facilities that had provided sustaining work for the solid rocket industrial base. Research the BRAC process. How does the government decide which facilities to close, and how were communities expected to adapt?
+
+3. The FTC blocked Lockheed's acquisition of Aerojet Rocketdyne but allowed Northrop's acquisition of Orbital ATK (with conditions). What accounts for the different outcomes? Research the economic arguments the FTC used in each case.
+
+4. Design a "counterfactual" industrial structure: if the Cold War had not ended in 1989, and demand had remained at 1985 levels through 2010, how many suppliers would likely have survived? What would the industry look like today?

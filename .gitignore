@@ -1,0 +1,10 @@
+.quarto/
+docs/.quarto/
+**/*.quarto_ipynb
+*.quarto_ipynb_*
+.pixi/
+__pycache__/
+*.py[cod]
+files.zip
+
+/.quarto/

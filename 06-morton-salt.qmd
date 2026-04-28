@@ -1,0 +1,103 @@
+# Strange Bedfellow #1: Morton Salt and the Shuttle Boosters {#sec-morton}
+
+> *"The shuttle thing will cost us ten cents a share."*
+> — Morton Thiokol Chairman Charles Locke, to the Wall Street Journal, January 28, 1986
+
+Of all the strange bedfellow stories in the solid rocket industry, none is stranger, more consequential, or more human than Morton Salt's seven-year ownership of the company that built the Space Shuttle's solid rocket boosters.
+
+It begins, as so many American corporate stories do, with a hostile takeover threat.
+
+## Morton in 1982: Needing Armor
+
+The Morton Company — probably best known for its popular blue canister of table salt, featuring a raincoat-clad girl with an umbrella and the tagline "When it rains, it pours" — traced its origins to 1848, when Joy Morton began distributing salt in Chicago from Erie Canal shipments. After the Civil War, the demand for salt expanded with the meat-packing industry, and Morton's Chicago operation grew into a major national business.
+
+By 1982, Morton-Norwich Products (the company had diversified into pharmaceuticals and household products through acquisition) was in financial trouble — not because its businesses were performing poorly, but because of a structural vulnerability. Morton's steady income from salt made its stock attractive and predictable. Its shares were selling for $30, but the company only held $20 per share in cash reserves. In the language of 1980s corporate raiders, Morton was a target.
+
+Management at Morton decided to act. They needed debt on their balance sheet — the counterintuitive defensive strategy of making the company expensive and messy enough to deter acquirers. They also needed growth. In 1982, Morton sold the Norwich pharmaceutical division and used part of the proceeds to buy back stock from Rhone-Poulenc, a French chemical company that had accumulated a stake.
+
+But that wasn't enough. They needed a merger partner.
+
+## Thiokol in 1982: An Attractive Target
+
+Thiokol Chemical Corporation, by 1982, was one of the most successful specialty chemical and defense companies in the United States:
+
+- **40% of the solid rocket fuel market** — a near-dominant position
+- **20% annual growth rate** — exceptional for any industrial company
+- **Space Shuttle SRB contract** — awarded in 1974, the company was the sole manufacturer of the reusable solid rocket boosters for NASA's flagship program
+- **Texize division** — a profitable line of household cleaners including Glass Plus
+
+Morton's management believed the household products divisions of both companies would complement one another. Morton's salt and specialty chemicals worked alongside Thiokol's Texize cleaners. And Thiokol's defense cash flows — reliable, government-backed, growing under the Reagan defense buildup — would stabilize Morton against future takeover threats.
+
+In 1982, Morton completed the acquisition of Thiokol. The merged entity became **Morton Thiokol, Inc.** The company with the little girl and the umbrella now owned the solid rocket boosters for the Space Shuttle.
+
+## The First Year: Management Walks Out
+
+The merger's first year revealed the cultural incompatibility that would shadow the partnership. Morton's management culture — the "bean counters" as Thiokol's engineers called them — clashed immediately with Thiokol's tradition of technological entrepreneurship.
+
+A severe disagreement arose between the upper management of each company. The result: Thiokol's president Robert Davies — considered one of the brightest executives in the aerospace and chemical industries — walked out. Four other high-level executives with experience in aerospace followed, either retiring or resigning. Morton's Charles Locke was given complete control of both companies.
+
+Despite these defections, the company posted record earnings in its first year. Earnings per share increased 26% two years after the merger. Morton's and Thiokol's specialty chemicals divisions worked well together. The financial logic held — the human logic did not.
+
+## January 28, 1986: Challenger
+
+At 11:38 AM Eastern time on January 28, 1986, the Space Shuttle Challenger lifted off from Launch Complex 39B at Kennedy Space Center. Outside air temperature was 36°F — far below the 40°F minimum rating for the solid rocket booster O-rings.
+
+At 73 seconds after launch, a flame from the right solid rocket booster's aft field joint burned through the external tank, causing structural failure and breakup of the vehicle. All seven crew members — Francis Scobee, Michael Smith, Judith Resnik, Ellison Onizuka, Ronald McNair, Gregory Jarvis, and Christa McAuliffe — were killed.
+
+The investigation revealed what Morton Thiokol's own engineers had known and warned about: the O-ring seals were not rated for operation below 40°F, and engineers had specifically recommended against the launch the previous evening. They were overruled.
+
+The Presidential Commission on the Space Shuttle Challenger Accident (the Rogers Commission) found that Morton Thiokol management had reversed its engineers' recommendation under pressure from NASA managers, who were eager to launch. Roger Boisjoly, a Morton Thiokol engineer, had written a prescient memo months earlier warning of exactly this failure mode. His warnings were not acted upon.
+
+## Locke's Response: Ten Cents a Share
+
+Morton Thiokol chairman Charles Locke's response to the disaster became one of the most infamous quotes in American corporate history. Shortly after the accident, he told reporters that "the shuttle thing will cost us ten cents a share." Quoted out of context, the remark nonetheless ensured Locke a reputation as tactless and insensitive that persisted for the rest of his career.
+
+The fuller context was not much better: Locke ordered an investigation of the accident but failed to handle the public relations crisis that followed. The company was on the wrong side of the largest peacetime aerospace disaster in American history, and its chairman was talking about earnings per share.
+
+## The Divorce: 1989
+
+Despite performing $400 million worth of redesign work largely at cost, and despite the resumption of Shuttle flights in 1988, Morton Thiokol lost a bid for a new booster design to Lockheed. At this point, Locke decided to spin off the Thiokol division.
+
+Before dividing the companies, Locke executed a maneuver that Thiokol employees viewed as a betrayal: he transferred Thiokol's most profitable non-rocket businesses to the Morton side of the company. Morton retained:
+
+- **The specialty chemicals business** — adhesives, coatings, sealants, electrical chemicals, dyes
+- **The airbag business** — a promising automotive safety technology that would grow to $269M in revenue by 1994
+
+The companies were officially split on July 1, 1989. Morton International, with $1.4 billion in sales and 8,000 employees, remained concentrated in chemicals and salt. Utah-based Thiokol Corporation emerged as a $1.1 billion company with 12,000 employees — but its profitable chemicals and airbag businesses had been carved away. All that remained was rockets.
+
+## The Airbag Aftermath: Salt to Airbags
+
+The airbag business Morton retained from Thiokol grew into a substantial operation. Morton's airbag revenue reached $269M by 1994 — making Morton International, the salt company, briefly one of the world's largest automotive safety suppliers. In the late 1990s, Morton sold the airbag business to Autoliv, the Swedish automotive safety company.
+
+The causality chain is remarkable: Morton Salt acquired Thiokol to protect itself from hostile takeovers. Thiokol's airbag patent (Thiokol had been awarded the first patent for a "safety cushion assembly for automotive vehicles" in 1953) was among the assets Morton retained. That airbag business, grown and sold to a Swedish company, was the most financially successful legacy of the entire Morton-Thiokol merger.
+
+The rocket business ended up costing Morton. The airbag business made money.
+
+## Legacy: What the Marriage Cost, and What It Produced
+
+The Morton Thiokol period (1982–1989) produced:
+
+- The Space Shuttle solid rocket booster redesign after Challenger (though at tremendous cost)
+- Seven crew member deaths and the 32-month grounding of the Shuttle program
+- The dismissal of Thiokol's senior technical management
+- Long-term damage to NASA's safety culture (documented in subsequent investigations including Columbia in 2003)
+- The demonstration that defense cash flows cannot easily be managed by non-defense corporate cultures
+
+It also produced, inadvertently:
+- A survivor company (Thiokol Corporation) that eventually became the propulsion core of ATK
+- The airbag industry heritage that Morton took with it
+- One of the most studied corporate ethics cases in American business school curricula
+
+Roger Boisjoly, the Thiokol engineer who warned about the O-rings, spent years afterward speaking publicly about the ethical failure at Morton Thiokol. He framed it not as an engineering failure but as a management failure — the moment when financial and schedule pressure overrode the judgment of the people who actually understood the hardware.
+
+The solid rocket industry has not forgotten it. Every program review, every launch readiness review, every time an engineer raises a concern about flight conditions — Challenger is the institutional memory that explains why those processes exist.
+
+## Exercises
+
+1. Reconstruct the Morton management's decision logic for acquiring Thiokol in 1982. Given what they knew at the time, was it a reasonable strategic decision? What information would have changed the calculus?
+
+2. The Rogers Commission found that Morton Thiokol management reversed an engineering recommendation under pressure from NASA. Research the concept of "normalization of deviance" as described by sociologist Diane Vaughan in her book on Challenger. How does this concept explain what happened?
+
+3. Morton retained Thiokol's airbag business when it spun off the rocket division in 1989 — and that business proved more valuable than the rockets. What does this suggest about how diversified companies evaluate subsidiary assets during divestitures?
+
+4. Roger Boisjoly warned about the O-rings in writing months before Challenger. His warning was not acted upon. Research what organizational structures or processes have been implemented in the aerospace industry since Challenger specifically to prevent the suppression of engineer safety concerns.

@@ -1,0 +1,96 @@
+# Strange Bedfellows: The Rest of the Family {#sec-bedfellows}
+
+> *"ATK was launched as an independent company in 1990, when Honeywell spun off its defense businesses to shareholders."*
+
+Morton Salt and General Tire are the headliners, but the solid rocket industry's strange bedfellow hall of fame extends considerably further. This chapter collects the remaining remarkable partnerships — from Mason jars to thermostats, from dynamite to aluminum — that define the industry's character.
+
+## Honeywell and the Thermostat Company's Secret Defense Empire
+
+Honeywell Incorporated was founded in Minneapolis in 1906, producing coal furnace regulators. It grew into a diversified industrial company manufacturing thermostats, controls, and building automation systems. By most accounts it was — and remains — a company associated with home comfort, climate control, and industrial instrumentation.
+
+What most people do not know is that Honeywell spent 50 years quietly accumulating one of the most substantial defense manufacturing operations in the United States.
+
+The defense division's roots went back to World War II, when Honeywell produced torpedo mechanisms, gun turret systems, and other military ordnance. Through the Cold War, the division expanded into propellants, ammunition, and defense electronics. By the late 1980s, Honeywell's defense businesses were generating hundreds of millions in revenue annually and employed thousands of people — almost entirely invisible to the company's public identity as a thermostat maker.
+
+In 1990, Honeywell spun off its defense businesses to shareholders, creating **Alliant Techsystems (ATK)** as an independent company. The thermostat company had, for five decades, been secretly one of America's major defense manufacturers. ATK then proceeded to acquire Hercules Aerospace (1995) and Thiokol Propulsion (2001), assembling the dominant US solid rocket motor business from the pieces of the Cold War industrial base.
+
+Your home thermostat company — through a chain of two corporate transactions — is the institutional ancestor of the Space Shuttle's solid rocket boosters.
+
+## DuPont → Hercules → Trident: The Antitrust-to-ICBM Pipeline
+
+E.I. du Pont de Nemours & Company did not intend to create a solid rocket motor manufacturer. The company was forced to by the federal government in 1912, when the Department of Justice broke up DuPont's explosives monopoly and required it to spin off two independent companies.
+
+One of those forced spin-offs — Hercules Powder Company — spent the next 80 years slowly pivoting from dynamite to rocket propellant, eventually becoming the primary supplier of solid motors for the Navy's Trident submarine-launched ballistic missile.
+
+The causal chain: DuPont monopoly → antitrust lawsuit → forced divestiture → Hercules Powder Company → Bacchus Works, Utah → Polaris motors → Trident I → Trident II D5 → Northrop Grumman Innovation Systems.
+
+A federal antitrust action against a gunpowder monopoly became, eight decades later, the propulsion heritage of the Navy's nuclear deterrent. No one planned this. It simply accumulated.
+
+## Ball Glass Jars → Ball Aerospace → Orbital Sciences → Pegasus
+
+Ball Corporation was incorporated in 1880 in Buffalo, New York, producing wood-jacketed tin cans. The company moved to Muncie, Indiana in 1887 and pivoted to glass jars for food preservation — becoming the Mason jar company that has been a fixture in American kitchens since the late 19th century.
+
+In 1956, Ball Brothers Company (as it was then known) created Ball Brothers Research Corporation — a diversified research and engineering operation that eventually became **Ball Aerospace & Technologies Corporation**. The logic was straightforward for the era: Ball had manufacturing expertise, precision engineering capabilities, and access to capital. The space age was beginning. Aerospace seemed like an attractive adjacent market.
+
+Ball Aerospace grew into a respected manufacturer of scientific instruments, spacecraft components, and eventually complete satellites. Among its clients were NASA and the National Reconnaissance Office.
+
+In 1989, Orbital Sciences Corporation and Hercules Aerospace co-funded the development of the Pegasus air-launched rocket. When Pegasus needed its first commercial customer to justify the private investment, **Ball Aerospace** stepped up — commissioning launches for two Ball Aerospace communications satellites before early 1991.
+
+The Mason jar company was the anchor customer for the world's first privately developed orbital launch vehicle.
+
+## Alcoa and the One-Year Rocket Company
+
+This story is so brief it barely registers in corporate history — yet it illustrates perfectly how industrial rationality can produce absurd outcomes.
+
+After Morton spun off the rocket division in 1989, Thiokol Corporation renamed itself **Cordant Technologies** in 1998, acquiring Howmet International (precision turbine blade castings) and Huck International (aerospace fasteners) to diversify beyond rockets.
+
+In 2000, Cordant Technologies merged with two divisions of Alcoa — the aluminum and materials giant — plus Howmet Castings to form **AIC Group (Alcoa Industrial Components)**. For approximately one year, the world's largest solid rocket motor manufacturer was a subsidiary of an aluminum company.
+
+Alcoa apparently wanted only the Howmet casting business. The rocket motors were incidental. In April 2001, ATK purchased the entire operation for $2.9 billion, pulling Thiokol Propulsion out of the aluminum company's portfolio.
+
+Duration of Alcoa's rocket ownership: approximately 12 months. Reason for ownership: they wanted turbine blade castings and the rocket company came along for the ride.
+
+## Morton Salt → Airbags → Autoliv
+
+The Morton Salt strange bedfellow story has a coda that is almost as remarkable as the main event.
+
+When Morton spun off Thiokol's rocket division in 1989, it retained several of Thiokol's non-rocket businesses — including an automotive airbag operation. Thiokol had been awarded the first US patent for a "safety cushion assembly for automotive vehicles" in 1953, and the company had developed airbag technology alongside its rocket work (the chemistry of rapid gas generation is relevant to both).
+
+Morton's airbag business grew to $269 million in revenue by 1994. The salt company had become, inadvertently, one of the world's major automotive safety suppliers. It eventually sold the airbag business to Autoliv — a Swedish automotive safety company — in the late 1990s.
+
+The complete lineage: table salt merchant (1848) → acquired a rocket company to ward off takeovers (1982) → Challenger disaster forced divestiture (1989) → retained the airbag patents → became a major airbag manufacturer → sold to a Swedish company.
+
+## Blount International: Ammunition and Rocket Boosters, Under One Roof
+
+In 2001, ATK acquired the ammunition businesses of Blount International — including the Federal Premium, CCI, and Speer ammunition brands. This made ATK simultaneously:
+
+- **The largest manufacturer of solid rocket motors** in the United States (via Thiokol and Hercules Aerospace)
+- **The largest manufacturer of commercial ammunition** in the United States (via Federal, CCI, Speer)
+
+In fiscal year 2001, ATK shipped the redesigned Space Shuttle solid rocket boosters and millions of rounds of .22LR, .308 Winchester, and 9mm pistol ammunition. The same corporate entity, the same management team, the same balance sheet.
+
+The ammunition business eventually became ATK's Sporting Group, which was spun off in 2015 as **Vista Outdoor** — now a publicly traded company selling ammunition, outdoor products, and firearms accessories. Vista Outdoor's largest brands (Federal, CCI, Speer) are therefore the direct corporate descendants of ATK's 2001 ammunition acquisition, which was itself adjacent to ATK's dominant solid rocket motor business.
+
+The sporting goods store and the missile defense contractor share a corporate grandfather.
+
+## The Pattern: Why Do Strange Bedfellows Happen?
+
+Looking across these stories, several patterns emerge:
+
+**Chemistry is the common thread.** Every bedfellow relationship has chemistry at its root. Rubber chemistry (General Tire), explosives chemistry (DuPont/Hercules), polymer chemistry (Thiokol), aluminum processing (Alcoa), gas generation (Morton/airbags). Solid rocket propulsion is fundamentally an applied chemistry problem, and the companies that could solve it were chemistry companies with expertise that transferred in unexpected directions.
+
+**Financial engineering drives the marriages.** Morton needed debt. Thiokol needed stable cash flow. General Tire needed diversification. Honeywell needed to simplify its portfolio. The technical compatibility was sometimes real; the financial logic was always primary.
+
+**Defense cash flows attract non-defense capital.** Steady, long-term government contracts — the kind that sustain ICBM and strategic missile programs — generate predictable free cash flow. Predictable free cash flow attracts buyers who have nothing else in common with the business. A salt company's core business is subject to commodity price swings. A rocket company with long-term government contracts is not. The economics made these marriages financially rational even when they were operationally absurd.
+
+**The divorces are always driven by crisis or strategy, rarely by success.** Morton divorced Thiokol because of Challenger. Hercules sold its aerospace division because specialty chemicals were growing faster. Honeywell spun off ATK to simplify its portfolio for institutional investors. The bedfellows stay together until something forces them apart.
+
+## Exercises
+
+1. Identify the chemistry connection in each of the following pairings: Morton Salt + Thiokol, General Tire + Aerojet, Alcoa + Cordant, Honeywell + ATK. Is chemistry always the underlying rationale, or are some of these purely financial?
+
+2. The conglomerate acquisitions described in this chapter occurred primarily in the 1960s–1990s. Modern corporate governance generally discourages this kind of unrelated diversification. What changed? Research the academic literature on "diversification discount" — the empirical finding that diversified companies trade at lower valuations than focused companies.
+
+3. Ball Aerospace's participation as anchor customer for Pegasus was arguably critical to the program's viability. Research other cases where an unusual early customer helped make a new launch vehicle commercially viable.
+
+4. Vista Outdoor (the sporting goods spin-off of ATK's ammunition business) is now a publicly traded company. Research its current portfolio and recent history. Does it bear any trace of its rocket company heritage?

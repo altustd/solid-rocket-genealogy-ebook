@@ -1,0 +1,72 @@
+# Introduction: The Incestuous Community {#sec-introduction}
+
+> *"I have worked for Thiokol, Morton Thiokol, Thiokol again, ATK Thiokol, ATK Launch Systems, and Northrop Grumman. I have never changed my job."*
+> — Retired engineer, Promontory, Utah, 2019
+
+::: {.callout-note appearance="simple"}
+## Learning Objectives
+- Understand the scope and methodology of industrial genealogy as applied to the solid rocket sector
+- Identify the central thesis: corporate boundaries are porous; technical knowledge and human capital are the durable carriers of institutional memory
+- Distinguish between corporate ancestry (formal ownership chains) and practical ancestry (propellant chemistry, facility continuity, personnel networks)
+:::
+
+## The Puzzle
+
+By 2020, American strategic ballistic missiles — the Minuteman III ICBMs in their hardened silos across North Dakota, Wyoming, and Montana; the Trident II D5s on Ohio-class submarines beneath the world's oceans — depended for their solid rocket motors on exactly two companies: Northrop Grumman Innovation Systems and Aerojet Rocketdyne.
+
+In 1980, there had been seven. In 1965, there had been more.
+
+The contraction is easy to explain in broad strokes: the Cold War ended, the defense budget fell, and the market could no longer support seven manufacturers of a product the government bought in small quantities at unpredictable intervals. What is harder to explain — and more interesting — is how the knowledge, the facilities, and the people that had been distributed across seven companies ended up concentrated in two.
+
+The answer requires tracing genealogies.
+
+## Corporate Ancestry vs. Practical Ancestry
+
+The distinction that runs through every chapter of this book is between two kinds of ancestry.
+
+**Corporate ancestry** is the formal chain of ownership and legal succession. Thiokol Chemical Corporation was acquired by Morton International in 1982 to form Morton Thiokol, Inc. Morton Thiokol was spun off as Thiokol Corporation in 1989, then acquired by ATK in 2001. ATK merged with Orbital Sciences in 2015 to form Orbital ATK, which was acquired by Northrop Grumman in 2018. Corporate ancestry can be read off a merger agreement or a SEC filing.
+
+**Practical ancestry** is the chain through which technical capability actually passes. The propellant formulation for the Minuteman III Stage 1 motor was developed by Thiokol engineers at Promontory, Utah in the early 1960s. Many of those engineers were still working at the same facility — under whatever corporate name appeared on their badge — into the 1990s. The formulation itself, refined but recognizable, was still in production. The facility, expanded and upgraded but continuous, still operated. The corporate name had changed three times. The practical ancestry had not.
+
+This is what "incestuous community" means. Not that the corporate ownership is incestuous — that phrase implies something sinister that the history does not quite support — but that the community of practice is so small, so technically specialized, and so geographically concentrated that it functions, across corporate boundaries, like a single extended family.
+
+## The Seven Lineages
+
+At the Cold War peak, American solid rocket capability resided in seven major corporate entities, each with a distinct genealogical origin:
+
+1. **Thiokol** — chemical origins in polysulfide rubber polymers; Minuteman I and II Stage 1; Space Shuttle SRBs
+2. **Hercules** — antitrust breakup of DuPont; Polaris and Trident; Pegasus
+3. **Aerojet** — Caltech GALCIT origins; Titan; Minuteman II Stage 2
+4. **Atlantic Research Corporation** — independent research origins; JATO and tactical systems
+5. **United Technologies Chemical Systems Division** — industrial diversification into aerospace
+6. **Olin Aerospace** (née Rocket Research Corporation) — monopropellant origins, tactical systems
+7. **Rocketdyne** — primarily liquid rocket heritage, marginal solid capability
+
+Chapters 3 through 5 trace the three major lineages in depth: Thiokol, Hercules, and Aerojet. Chapters 6 through 8 address the "strange bedfellows" — the companies whose primary businesses had nothing obvious to do with rocket propulsion but who owned significant solid rocket assets for years or decades. Chapters 9 through 11 trace the contraction and its consequences.
+
+## Why the Incest Matters
+
+The incestuous character of the community is not merely a colorful historical detail. It has practical implications for understanding the current industrial base — and its vulnerabilities.
+
+When Northrop Grumman acquired Orbital ATK in 2018, it acquired not just a legal entity and a set of facilities. It acquired the institutional memory embedded in the workforce, the accumulated process knowledge stored in manufacturing procedures developed over decades, and the technical relationships with government program offices built by individual engineers over careers.
+
+What it could not acquire — or guarantee to retain — was the people who carried that knowledge. The wave of retirements that accelerated as the baby boomer generation aged out of the workforce in the 2010s and 2020s represented a transfer of institutional memory that had no parallel in the merger and acquisition history of the industry.
+
+Corporate genealogy is the record of what was bought and sold. The more important genealogy — harder to trace, impossible to price — is the one that lives in the memory of engineers who have never changed their jobs, only their employers.
+
+## A Note on Sources
+
+This book draws on corporate histories, congressional testimony, trade publications (*Aviation Week & Space Technology*, *Aerospace America*, *Space News*), oral histories conducted by the American Institute of Aeronautics and Astronautics (AIAA) and the Smithsonian National Air and Space Museum, declassified government program records, and secondary historical literature on the defense industrial base.
+
+Where corporate history documents are cited, readers should note that corporate histories are commissioned works and may reflect the perspective of their sponsors. This is particularly true for the merger-era corporate histories produced in the 1990s, which tend to celebrate consolidation as visionary strategy rather than as forced response to demand collapse.
+
+## Summary
+
+The American solid rocket industry is small, technically specialized, and geographically concentrated. Its corporate genealogy — the chains of acquisition, merger, and divestiture that ran from 1950 to the present — is less important than its practical genealogy: the continuous community of engineers, chemists, and program managers who carried its technical knowledge across every corporate transformation. The chapters that follow trace both genealogies, in the hope that the intersection illuminates both.
+
+## Further Reading
+
+- Hunley, J.D. *The Development of Propulsion Technology for U.S. Space-Launch Vehicles, 1926–1991*. Texas A&M University Press, 2007.
+- Spinardi, Graham. *From Polaris to Trident: The Development of US Fleet Ballistic Missile Technology*. Cambridge University Press, 1994.
+- Asker, James R. "The Solid Rocket Duopoly." *Aviation Week & Space Technology*, March 2019.
+- United States General Accounting Office. *Defense Industrial Base: Trends in DoD Spending, Industrial Productivity, and Competition*. GAO/PEMD-97-3, 1997.
