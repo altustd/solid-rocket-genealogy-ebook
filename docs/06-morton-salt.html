@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -226,6 +191,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">References</span></a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix-a-genealogy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix A: Corporate Genealogy Reference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix-b-glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix B: Glossary</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -244,7 +232,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#the-divorce-1989" id="toc-the-divorce-1989" class="nav-link" data-scroll-target="#the-divorce-1989"><span class="header-section-number">7.6</span> The Divorce: 1989</a></li>
   <li><a href="#the-airbag-aftermath-salt-to-airbags" id="toc-the-airbag-aftermath-salt-to-airbags" class="nav-link" data-scroll-target="#the-airbag-aftermath-salt-to-airbags"><span class="header-section-number">7.7</span> The Airbag Aftermath: Salt to Airbags</a></li>
   <li><a href="#legacy-what-the-marriage-cost-and-what-it-produced" id="toc-legacy-what-the-marriage-cost-and-what-it-produced" class="nav-link" data-scroll-target="#legacy-what-the-marriage-cost-and-what-it-produced"><span class="header-section-number">7.8</span> Legacy: What the Marriage Cost, and What It Produced</a></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises"><span class="header-section-number">7.9</span> Exercises</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">7.9</span> Further Reading</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises"><span class="header-section-number">7.10</span> Exercises</a></li>
   </ul>
 </nav>
     </div>
@@ -253,7 +242,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span id="sec-morton" class="quarto-section-identifier"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Strange Bedfellow #1: Morton Salt and the Shuttle Boosters</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<h1 class="title"><span id="sec-morton" class="quarto-section-identifier"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Strange Bedfellow #1: Morton Salt and the Shuttle Boosters</span></span></h1>
 </div>
 
 
@@ -342,8 +331,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Roger Boisjoly, the Thiokol engineer who warned about the O-rings, spent years afterward speaking publicly about the ethical failure at Morton Thiokol. He framed it not as an engineering failure but as a management failure — the moment when financial and schedule pressure overrode the judgment of the people who actually understood the hardware.</p>
 <p>The solid rocket industry has not forgotten it. Every program review, every launch readiness review, every time an engineer raises a concern about flight conditions — Challenger is the institutional memory that explains why those processes exist.</p>
 </section>
-<section id="exercises" class="level2" data-number="7.9">
-<h2 data-number="7.9" class="anchored" data-anchor-id="exercises"><span class="header-section-number">7.9</span> Exercises</h2>
+<section id="further-reading" class="level2" data-number="7.9">
+<h2 data-number="7.9" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">7.9</span> Further Reading</h2>
+<ul>
+<li>Vaughan, Diane. <em>The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA</em>. University of Chicago Press, 1996. (The definitive sociological study of the Challenger accident’s organizational causes.)</li>
+<li>McDonald, Allan J., and James R. Hansen. <em>Truth, Lies, and O-Rings: Inside the Space Shuttle Challenger Disaster</em>. University Press of Florida, 2009. (Account from the Thiokol engineer who refused to sign the launch recommendation.)</li>
+<li>Presidential Commission on the Space Shuttle Challenger Accident. <em>Report to the President</em>. 1986. (The Rogers Commission Report.)</li>
+<li>Bazerman, Max H., and Ann E. Tenbrunsel. <em>Blind Spots: Why We Fail to Do What’s Right and What to Do about It</em>. Princeton University Press, 2011. (Business ethics framework applied in many Challenger case analyses.)</li>
+</ul>
+</section>
+<section id="exercises" class="level2" data-number="7.10">
+<h2 data-number="7.10" class="anchored" data-anchor-id="exercises"><span class="header-section-number">7.10</span> Exercises</h2>
 <ol type="1">
 <li><p>Reconstruct the Morton management’s decision logic for acquiring Thiokol in 1982. Given what they knew at the time, was it a reasonable strategic decision? What information would have changed the calculus?</p></li>
 <li><p>The Rogers Commission found that Morton Thiokol management reversed an engineering recommendation under pressure from NASA. Research the concept of “normalization of deviance” as described by sociologist Diane Vaughan in her book on Challenger. How does this concept explain what happened?</p></li>
@@ -351,8 +349,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Roger Boisjoly warned about the O-rings in writing months before Challenger. His warning was not acted upon. Research what organizational structures or processes have been implemented in the aerospace industry since Challenger specifically to prevent the suppression of engineer safety concerns.</p></li>
 </ol>
 
-
-<!-- -->
 
 </section>
 
@@ -427,57 +423,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         container: window.document.getElementById('quarto-embedded-source-code-modal')
       });
       clipboardModal.on('success', onCopySuccess);
-    }
-    const viewSource = window.document.getElementById('quarto-view-source') ||
-                       window.document.getElementById('quarto-code-tools-source');
-    if (viewSource) {
-      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-      viewSource.addEventListener("click", function(e) {
-        if (sourceUrl) {
-          // rstudio viewer pane
-          if (/\bcapabilities=\b/.test(window.location)) {
-            window.open(sourceUrl);
-          } else {
-            window.location.href = sourceUrl;
-          }
-        } else {
-          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-          modal.show();
-        }
-        return false;
-      });
-    }
-    function toggleCodeHandler(show) {
-      return function(e) {
-        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-        for (let i=0; i<detailsSrc.length; i++) {
-          const details = detailsSrc[i].parentElement;
-          if (show) {
-            details.open = true;
-          } else {
-            details.removeAttribute("open");
-          }
-        }
-        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-        const fromCls = show ? "hidden" : "unhidden";
-        const toCls = show ? "unhidden" : "hidden";
-        for (let i=0; i<cellCodeDivs.length; i++) {
-          const codeDiv = cellCodeDivs[i];
-          if (codeDiv.classList.contains(fromCls)) {
-            codeDiv.classList.remove(fromCls);
-            codeDiv.classList.add(toCls);
-          } 
-        }
-        return false;
-      }
-    }
-    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-    if (hideAllCode) {
-      hideAllCode.addEventListener("click", toggleCodeHandler(false));
-    }
-    const showAllCode = window.document.getElementById("quarto-show-all-code");
-    if (showAllCode) {
-      showAllCode.addEventListener("click", toggleCodeHandler(true));
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
@@ -819,111 +764,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Strange Bedfellow #2: General Tire — Tires, Films, Airlines, and ICBMs</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Strange Bedfellow #1: Morton Salt and the Shuttle Boosters {#sec-morton}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *"The shuttle thing will cost us ten cents a share."*</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; — Morton Thiokol Chairman Charles Locke, to the Wall Street Journal, January 28, 1986</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>Of all the strange bedfellow stories in the solid rocket industry, none is stranger, more consequential, or more human than Morton Salt's seven-year ownership of the company that built the Space Shuttle's solid rocket boosters.</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>It begins, as so many American corporate stories do, with a hostile takeover threat.</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## Morton in 1982: Needing Armor</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>The Morton Company — probably best known for its popular blue canister of table salt, featuring a raincoat-clad girl with an umbrella and the tagline "When it rains, it pours" — traced its origins to 1848, when Joy Morton began distributing salt in Chicago from Erie Canal shipments. After the Civil War, the demand for salt expanded with the meat-packing industry, and Morton's Chicago operation grew into a major national business.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>By 1982, Morton-Norwich Products (the company had diversified into pharmaceuticals and household products through acquisition) was in financial trouble — not because its businesses were performing poorly, but because of a structural vulnerability. Morton's steady income from salt made its stock attractive and predictable. Its shares were selling for $30, but the company only held $20 per share in cash reserves. In the language of 1980s corporate raiders, Morton was a target.</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>Management at Morton decided to act. They needed debt on their balance sheet — the counterintuitive defensive strategy of making the company expensive and messy enough to deter acquirers. They also needed growth. In 1982, Morton sold the Norwich pharmaceutical division and used part of the proceeds to buy back stock from Rhone-Poulenc, a French chemical company that had accumulated a stake.</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>But that wasn't enough. They needed a merger partner.</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## Thiokol in 1982: An Attractive Target</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>Thiokol Chemical Corporation, by 1982, was one of the most successful specialty chemical and defense companies in the United States:</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**40% of the solid rocket fuel market** — a near-dominant position</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**20% annual growth rate** — exceptional for any industrial company</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Space Shuttle SRB contract** — awarded in 1974, the company was the sole manufacturer of the reusable solid rocket boosters for NASA's flagship program</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Texize division** — a profitable line of household cleaners including Glass Plus</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>Morton's management believed the household products divisions of both companies would complement one another. Morton's salt and specialty chemicals worked alongside Thiokol's Texize cleaners. And Thiokol's defense cash flows — reliable, government-backed, growing under the Reagan defense buildup — would stabilize Morton against future takeover threats.</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>In 1982, Morton completed the acquisition of Thiokol. The merged entity became **Morton Thiokol, Inc.** The company with the little girl and the umbrella now owned the solid rocket boosters for the Space Shuttle.</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">## The First Year: Management Walks Out</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>The merger's first year revealed the cultural incompatibility that would shadow the partnership. Morton's management culture — the "bean counters" as Thiokol's engineers called them — clashed immediately with Thiokol's tradition of technological entrepreneurship.</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>A severe disagreement arose between the upper management of each company. The result: Thiokol's president Robert Davies — considered one of the brightest executives in the aerospace and chemical industries — walked out. Four other high-level executives with experience in aerospace followed, either retiring or resigning. Morton's Charles Locke was given complete control of both companies.</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>Despite these defections, the company posted record earnings in its first year. Earnings per share increased 26% two years after the merger. Morton's and Thiokol's specialty chemicals divisions worked well together. The financial logic held — the human logic did not.</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="fu">## January 28, 1986: Challenger</span></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>At 11:38 AM Eastern time on January 28, 1986, the Space Shuttle Challenger lifted off from Launch Complex 39B at Kennedy Space Center. Outside air temperature was 36°F — far below the 40°F minimum rating for the solid rocket booster O-rings.</span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>At 73 seconds after launch, a flame from the right solid rocket booster's aft field joint burned through the external tank, causing structural failure and breakup of the vehicle. All seven crew members — Francis Scobee, Michael Smith, Judith Resnik, Ellison Onizuka, Ronald McNair, Gregory Jarvis, and Christa McAuliffe — were killed.</span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>The investigation revealed what Morton Thiokol's own engineers had known and warned about: the O-ring seals were not rated for operation below 40°F, and engineers had specifically recommended against the launch the previous evening. They were overruled.</span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>The Presidential Commission on the Space Shuttle Challenger Accident (the Rogers Commission) found that Morton Thiokol management had reversed its engineers' recommendation under pressure from NASA managers, who were eager to launch. Roger Boisjoly, a Morton Thiokol engineer, had written a prescient memo months earlier warning of exactly this failure mode. His warnings were not acted upon.</span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="fu">## Locke's Response: Ten Cents a Share</span></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>Morton Thiokol chairman Charles Locke's response to the disaster became one of the most infamous quotes in American corporate history. Shortly after the accident, he told reporters that "the shuttle thing will cost us ten cents a share." Quoted out of context, the remark nonetheless ensured Locke a reputation as tactless and insensitive that persisted for the rest of his career.</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>The fuller context was not much better: Locke ordered an investigation of the accident but failed to handle the public relations crisis that followed. The company was on the wrong side of the largest peacetime aerospace disaster in American history, and its chairman was talking about earnings per share.</span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Divorce: 1989</span></span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>Despite performing $400 million worth of redesign work largely at cost, and despite the resumption of Shuttle flights in 1988, Morton Thiokol lost a bid for a new booster design to Lockheed. At this point, Locke decided to spin off the Thiokol division.</span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>Before dividing the companies, Locke executed a maneuver that Thiokol employees viewed as a betrayal: he transferred Thiokol's most profitable non-rocket businesses to the Morton side of the company. Morton retained:</span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**The specialty chemicals business** — adhesives, coatings, sealants, electrical chemicals, dyes</span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**The airbag business** — a promising automotive safety technology that would grow to $269M in revenue by 1994</span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>The companies were officially split on July 1, 1989. Morton International, with $1.4 billion in sales and 8,000 employees, remained concentrated in chemicals and salt. Utah-based Thiokol Corporation emerged as a $1.1 billion company with 12,000 employees — but its profitable chemicals and airbag businesses had been carved away. All that remained was rockets.</span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Airbag Aftermath: Salt to Airbags</span></span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>The airbag business Morton retained from Thiokol grew into a substantial operation. Morton's airbag revenue reached $269M by 1994 — making Morton International, the salt company, briefly one of the world's largest automotive safety suppliers. In the late 1990s, Morton sold the airbag business to Autoliv, the Swedish automotive safety company.</span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>The causality chain is remarkable: Morton Salt acquired Thiokol to protect itself from hostile takeovers. Thiokol's airbag patent (Thiokol had been awarded the first patent for a "safety cushion assembly for automotive vehicles" in 1953) was among the assets Morton retained. That airbag business, grown and sold to a Swedish company, was the most financially successful legacy of the entire Morton-Thiokol merger.</span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>The rocket business ended up costing Morton. The airbag business made money.</span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="fu">## Legacy: What the Marriage Cost, and What It Produced</span></span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>The Morton Thiokol period (1982–1989) produced:</span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The Space Shuttle solid rocket booster redesign after Challenger (though at tremendous cost)</span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Seven crew member deaths and the 32-month grounding of the Shuttle program</span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The dismissal of Thiokol's senior technical management</span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Long-term damage to NASA's safety culture (documented in subsequent investigations including Columbia in 2003)</span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The demonstration that defense cash flows cannot easily be managed by non-defense corporate cultures</span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>It also produced, inadvertently:</span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>A survivor company (Thiokol Corporation) that eventually became the propulsion core of ATK</span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The airbag industry heritage that Morton took with it</span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>One of the most studied corporate ethics cases in American business school curricula</span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>Roger Boisjoly, the Thiokol engineer who warned about the O-rings, spent years afterward speaking publicly about the ethical failure at Morton Thiokol. He framed it not as an engineering failure but as a management failure — the moment when financial and schedule pressure overrode the judgment of the people who actually understood the hardware.</span>
-<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>The solid rocket industry has not forgotten it. Every program review, every launch readiness review, every time an engineer raises a concern about flight conditions — Challenger is the institutional memory that explains why those processes exist.</span>
-<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="fu">## Exercises</span></span>
-<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Reconstruct the Morton management's decision logic for acquiring Thiokol in 1982. Given what they knew at the time, was it a reasonable strategic decision? What information would have changed the calculus?</span>
-<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>The Rogers Commission found that Morton Thiokol management reversed an engineering recommendation under pressure from NASA. Research the concept of "normalization of deviance" as described by sociologist Diane Vaughan in her book on Challenger. How does this concept explain what happened?</span>
-<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Morton retained Thiokol's airbag business when it spun off the rocket division in 1989 — and that business proved more valuable than the rockets. What does this suggest about how diversified companies evaluate subsidiary assets during divestitures?</span>
-<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Roger Boisjoly warned about the O-rings in writing months before Challenger. His warning was not acted upon. Research what organizational structures or processes have been implemented in the aerospace industry since Challenger specifically to prevent the suppression of engineer safety concerns.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
-</div></div></div></div></div>
+</nav>
 </div> <!-- /content -->
 
 

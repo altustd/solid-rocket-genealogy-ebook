@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -107,6 +72,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -226,6 +195,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">References</span></a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix-a-genealogy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix A: Corporate Genealogy Reference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix-b-glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix B: Glossary</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -243,7 +235,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#the-shuttle-era-programs" id="toc-the-shuttle-era-programs" class="nav-link" data-scroll-target="#the-shuttle-era-programs"><span class="header-section-number">11.5</span> The Shuttle Era Programs</a></li>
   <li><a href="#the-merger-orbital-atk-20142015" id="toc-the-merger-orbital-atk-20142015" class="nav-link" data-scroll-target="#the-merger-orbital-atk-20142015"><span class="header-section-number">11.6</span> The Merger: Orbital ATK (2014–2015)</a></li>
   <li><a href="#the-legacy" id="toc-the-legacy" class="nav-link" data-scroll-target="#the-legacy"><span class="header-section-number">11.7</span> The Legacy</a></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises"><span class="header-section-number">11.8</span> Exercises</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">11.8</span> Further Reading</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises"><span class="header-section-number">11.9</span> Exercises</a></li>
   </ul>
 </nav>
     </div>
@@ -252,7 +245,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span id="sec-atk" class="quarto-section-identifier"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">The ATK Era: When One Company Ate the Industry</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<h1 class="title"><span id="sec-atk" class="quarto-section-identifier"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">The ATK Era: When One Company Ate the Industry</span></span></h1>
 </div>
 
 
@@ -274,6 +267,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </blockquote>
 <p>Alliant Techsystems — ATK — is the company that consolidated the American solid rocket industry. Between 1990 and 2015, it assembled the Thiokol, Hercules, and supporting propulsion heritage under a single roof, becoming the largest solid rocket motor manufacturer in the world and, for a time, the largest ammunition manufacturer in the United States simultaneously.</p>
 <p>The story of ATK is the story of one company making a series of acquisitions so consequential that they permanently restructured a strategic industry.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-atk-buildup" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-atk-buildup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-atk-buildup">flowchart TD
+    HON["Honeywell Defense\n(pre-1990)"] --&gt;|"1990 spinoff"| ATK0["Alliant Techsystems / ATK\n(1990)"]
+    HC["Hercules Aerospace"] --&gt;|"1995 · ~$450M"| ATK0
+    AIC["AIC Group / Alcoa\n(Cordant / Thiokol assets)"] --&gt;|"2001 · $2.9B"| ATK1
+    ATK0 --&gt; ATK1["ATK — Dominant SRM Supplier\n(2001–2015)"]
+    BL["Blount International\n(Federal, CCI, Speer ammo)"] --&gt;|"2001"| ATK1
+    ATK1 --&gt;|"2015 · Sporting Group spun off"| VO["Vista Outdoor"]
+    ATK1 --&gt;|"2015 merger"| OATK["Orbital ATK\n(2015–2018)"]
+    OS["Orbital Sciences"] --&gt;|"2015 merger"| OATK
+    OATK --&gt;|"2018 · $7.8B"| NG["Northrop Grumman\nInnovation Systems"]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-atk-buildup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11.1: ATK’s consolidation of the American solid rocket motor industry, 1990–2018.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 <section id="the-honeywell-spinoff-1990" class="level2" data-number="11.1">
 <h2 data-number="11.1" class="anchored" data-anchor-id="the-honeywell-spinoff-1990"><span class="header-section-number">11.1</span> The Honeywell Spinoff (1990)</h2>
 <p>ATK was launched as an independent company in 1990, when Honeywell spun off its defense businesses to shareholders. The former Honeywell businesses had supplied defense products and systems to the US and its allies for 50 years. The initial ATK was primarily a propellants, ammunition, and defense systems manufacturer — significant, but not yet dominant in solid rocket motors specifically.</p>
@@ -334,8 +353,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>ATK’s 25-year consolidation (1990–2015) permanently restructured the American solid rocket industry. By the time Northrop absorbed Orbital ATK, the seven Cold War suppliers had been reduced to effectively one dominant player (Northrop/ATK heritage) and one competitor (Aerojet Rocketdyne). The consolidation was complete.</p>
 <p>The Promontory facility — once Thiokol, then Morton Thiokol, then Thiokol Corporation, then Cordant, then AIC Group, then ATK Thiokol, then ATK Launch Systems Group, then Orbital ATK — now operates as <strong>Northrop Grumman Promontory</strong>. The name on the gate changes. The test stands remain.</p>
 </section>
-<section id="exercises" class="level2" data-number="11.8">
-<h2 data-number="11.8" class="anchored" data-anchor-id="exercises"><span class="header-section-number">11.8</span> Exercises</h2>
+<section id="further-reading" class="level2" data-number="11.8">
+<h2 data-number="11.8" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">11.8</span> Further Reading</h2>
+<ul>
+<li>Utah History Quarterly. “Alliant Techsystems and the Utah Aerospace Industry.” Various issues.</li>
+<li>Defense Science Board. <em>Task Force Report: Preserving a Healthy and Competitive US Defense Industry to Ensure our National Security</em>. Office of the Under Secretary of Defense for Acquisition, Technology and Logistics, 2011.</li>
+<li>Orbital Sciences Corporation. <em>Annual Reports and SEC Filings, 1990–2015</em>. (Primary source for the Orbital Sciences side of the merger.)</li>
+<li>US Senate Armed Services Committee. <em>Hearings on the State of the Defense Industrial Base</em>. Various years, 2010–2018. (Congressional perspective on ATK’s consolidation and its implications for competition.)</li>
+</ul>
+</section>
+<section id="exercises" class="level2" data-number="11.9">
+<h2 data-number="11.9" class="anchored" data-anchor-id="exercises"><span class="header-section-number">11.9</span> Exercises</h2>
 <ol type="1">
 <li><p>ATK paid $2.9 billion for Cordant/Thiokol in 2001. Research what that implies about Thiokol’s valuation metrics at the time. Was this a fair price for the seller? For the buyer?</p></li>
 <li><p>The decision to combine solid rocket motors and commercial ammunition in one company (via the Blount acquisition) was unusual. Construct the pro and con arguments for this combination. Which would you find more persuasive as an ATK board member in 2001?</p></li>
@@ -343,8 +371,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Northrop Grumman paid $7.8 billion for Orbital ATK in 2018. Research what programs Northrop was acquiring and evaluate whether this was a fair price given the backlog, programs, and strategic value of the combined entity.</p></li>
 </ol>
 
-
-<!-- -->
 
 </section>
 
@@ -419,57 +445,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         container: window.document.getElementById('quarto-embedded-source-code-modal')
       });
       clipboardModal.on('success', onCopySuccess);
-    }
-    const viewSource = window.document.getElementById('quarto-view-source') ||
-                       window.document.getElementById('quarto-code-tools-source');
-    if (viewSource) {
-      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-      viewSource.addEventListener("click", function(e) {
-        if (sourceUrl) {
-          // rstudio viewer pane
-          if (/\bcapabilities=\b/.test(window.location)) {
-            window.open(sourceUrl);
-          } else {
-            window.location.href = sourceUrl;
-          }
-        } else {
-          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-          modal.show();
-        }
-        return false;
-      });
-    }
-    function toggleCodeHandler(show) {
-      return function(e) {
-        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-        for (let i=0; i<detailsSrc.length; i++) {
-          const details = detailsSrc[i].parentElement;
-          if (show) {
-            details.open = true;
-          } else {
-            details.removeAttribute("open");
-          }
-        }
-        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-        const fromCls = show ? "hidden" : "unhidden";
-        const toCls = show ? "unhidden" : "hidden";
-        for (let i=0; i<cellCodeDivs.length; i++) {
-          const codeDiv = cellCodeDivs[i];
-          if (codeDiv.classList.contains(fromCls)) {
-            codeDiv.classList.remove(fromCls);
-            codeDiv.classList.add(toCls);
-          } 
-        }
-        return false;
-      }
-    }
-    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-    if (hideAllCode) {
-      hideAllCode.addEventListener("click", toggleCodeHandler(false));
-    }
-    const showAllCode = window.document.getElementById("quarto-show-all-code");
-    if (showAllCode) {
-      showAllCode.addEventListener("click", toggleCodeHandler(true));
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
@@ -811,98 +786,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Two Survivors: The Duopoly and What Comes Next</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># The ATK Era: When One Company Ate the Industry {#sec-atk}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *"With the Thiokol acquisition, ATK became the dominant supplier of solid-fuel rocket motors."*</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; — Utah History Quarterly</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>Alliant Techsystems — ATK — is the company that consolidated the American solid rocket industry. Between 1990 and 2015, it assembled the Thiokol, Hercules, and supporting propulsion heritage under a single roof, becoming the largest solid rocket motor manufacturer in the world and, for a time, the largest ammunition manufacturer in the United States simultaneously.</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>The story of ATK is the story of one company making a series of acquisitions so consequential that they permanently restructured a strategic industry.</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Honeywell Spinoff (1990)</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>ATK was launched as an independent company in 1990, when Honeywell spun off its defense businesses to shareholders. The former Honeywell businesses had supplied defense products and systems to the US and its allies for 50 years. The initial ATK was primarily a propellants, ammunition, and defense systems manufacturer — significant, but not yet dominant in solid rocket motors specifically.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>The transformation came through two acquisitions.</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">## Hercules Aerospace: The First Acquisition (1995)</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>In 1995, ATK purchased **Hercules Aerospace Company** from Hercules, Inc. for approximately $450 million. The acquisition brought:</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The **Bacchus Works** in Magna, Utah — the 1913 dynamite plant that had become a premier solid rocket facility</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The **Trident II D5** propulsion program — all stages for the Navy's primary submarine-launched ballistic missile</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The **Pegasus** rocket motor production — the Orion 50, 50XL, and 38 stages</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The **Minuteman III Stage 3** heritage and any sustaining work</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Filament-wound graphite composite casing technology</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Approximately 4,500 skilled workers in Utah</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>ATK already had a presence in Utah through its existing operations. The Hercules acquisition transformed it from a presence into a dominant force. The Bacchus Works — after operating under six corporate owners since 1913 — was now part of ATK.</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">## Cordant/Thiokol: The Decisive Acquisition (2001)</span></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>The Thiokol acquisition was the larger and more consequential move. The path was indirect:</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Thiokol renamed itself **Cordant Technologies** in 1998, acquiring Howmet International and Huck International</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>In 2000, **Alcoa** acquired Cordant, forming AIC Group — wanting primarily the Howmet casting business</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>In April 2001, ATK purchased the propulsion assets from AIC/Alcoa for **$2.9 billion**</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>The $2.9 billion figure was the largest acquisition in ATK's history and one of the largest transactions in the solid rocket industry. It brought:</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Thiokol Propulsion** — the primary manufacturer of the Space Shuttle solid rocket boosters</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The **Promontory, Utah** facility — over 10,000 acres of test infrastructure</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Minuteman III Stage 1** heritage</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Star 37 and Star 48** upper stage motors — the workhorses of interplanetary spacecraft separation</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The Shuttle SRB program sustaining work</span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>With the Thiokol acquisition, ATK controlled the lion's share of the US solid rocket fuel market. ATK built the third stage of the Trident missile <span class="co">[</span><span class="ot">via Hercules</span><span class="co">]</span> and had earlier bought Hercules Aerospace Co., builder of the second stage. With Thiokol, ATK now owned first stage heritage as well.</span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ammunition: The Unexpected Expansion</span></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>Also in 2001, ATK acquired the ammunition businesses of Blount International — including Federal Premium, CCI, and Speer brands. This made ATK the nation's largest manufacturer of ammunition. The decision to combine a dominant solid rocket motor business with a dominant commercial ammunition business in one company was unusual even by the standards of the defense industry.</span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>The rationale: both businesses involved energetic materials (propellants and propellant chemistry), both involved precision manufacturing, and both involved long-term government contracts alongside commercial sales. ATK's propellant expertise was genuinely applicable across both product lines.</span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>The ammunition business eventually became ATK's Sporting Group and was spun off in 2015 as Vista Outdoor — a publicly traded company that continues to operate the Federal, CCI, and Speer brands.</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Shuttle Era Programs</span></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>During the ATK era, the company was the sole manufacturer of the reusable Solid Rocket Motor used to launch the NASA Space Shuttle. After the Shuttle program ended in 2011, ATK developed the five-segment solid rocket booster for NASA's Space Launch System — a significant redesign and upscale of the four-segment Shuttle SRB.</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>ATK also produced the launch abort motor for NASA's Orion capsule — a small but critical solid motor that would pull the capsule away from an exploding rocket during a launch abort.</span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Merger: Orbital ATK (2014–2015)</span></span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>On April 29, 2014, ATK announced its board had unanimously approved a plan to split the company and merge its aerospace and defense operations with **Orbital Sciences Corporation**.</span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>The structure:</span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>ATK's **Sporting Group** was spun off to ATK shareholders as **Vista Outdoor** (tax-free)</span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>ATK's **Aerospace and Defense Groups** merged with Orbital Sciences to form **Orbital ATK**</span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Orbital Sciences shareholders received ATK common stock</span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>The merger closed February 9, 2015. Orbital ATK began operations February 20, 2015.</span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>The merger made strategic sense: Orbital Sciences had launch vehicle capabilities (Pegasus, Taurus, Minotaur, Antares) and satellite manufacturing; ATK had dominant solid rocket motor production. Together, they formed a vertically integrated aerospace and defense company — the motors and the vehicles that used them under one roof.</span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>Northrop Grumman acquired Orbital ATK in June 2018 for $7.8 billion — bringing the entire consolidated ATK lineage (Thiokol heritage, Hercules heritage, Orbital Sciences launch vehicles) into the second-largest defense contractor in the United States.</span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Legacy</span></span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>ATK's 25-year consolidation (1990–2015) permanently restructured the American solid rocket industry. By the time Northrop absorbed Orbital ATK, the seven Cold War suppliers had been reduced to effectively one dominant player (Northrop/ATK heritage) and one competitor (Aerojet Rocketdyne). The consolidation was complete.</span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>The Promontory facility — once Thiokol, then Morton Thiokol, then Thiokol Corporation, then Cordant, then AIC Group, then ATK Thiokol, then ATK Launch Systems Group, then Orbital ATK — now operates as **Northrop Grumman Promontory**. The name on the gate changes. The test stands remain.</span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="fu">## Exercises</span></span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>ATK paid $2.9 billion for Cordant/Thiokol in 2001. Research what that implies about Thiokol's valuation metrics at the time. Was this a fair price for the seller? For the buyer?</span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>The decision to combine solid rocket motors and commercial ammunition in one company (via the Blount acquisition) was unusual. Construct the pro and con arguments for this combination. Which would you find more persuasive as an ATK board member in 2001?</span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>The Orbital ATK merger was structured to spin off the Sporting Group to ATK shareholders while merging the aerospace business with Orbital Sciences. Research the tax and structural logic of this transaction. Why was it structured this way rather than as a simple merger?</span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Northrop Grumman paid $7.8 billion for Orbital ATK in 2018. Research what programs Northrop was acquiring and evaluate whether this was a fair price given the backlog, programs, and strategic value of the combined entity.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
-</div></div></div></div></div>
+</nav>
 </div> <!-- /content -->
 
 

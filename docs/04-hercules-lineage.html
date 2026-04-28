@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -107,6 +72,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -226,6 +195,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">References</span></a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix-a-genealogy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix A: Corporate Genealogy Reference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix-b-glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix B: Glossary</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -242,7 +234,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#the-nobel-laureate-connection" id="toc-the-nobel-laureate-connection" class="nav-link" data-scroll-target="#the-nobel-laureate-connection"><span class="header-section-number">5.4</span> The Nobel Laureate Connection</a></li>
   <li><a href="#the-incest-angle" id="toc-the-incest-angle" class="nav-link" data-scroll-target="#the-incest-angle"><span class="header-section-number">5.5</span> The Incest Angle</a></li>
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">5.6</span> Summary</a></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises"><span class="header-section-number">5.7</span> Exercises</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">5.7</span> Further Reading</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises"><span class="header-section-number">5.8</span> Exercises</a></li>
   </ul>
 </nav>
     </div>
@@ -251,7 +244,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span id="sec-hercules" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">The Hercules Lineage: From Dynamite to Trident</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<h1 class="title"><span id="sec-hercules" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">The Hercules Lineage: From Dynamite to Trident</span></span></h1>
 </div>
 
 
@@ -291,6 +284,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>1989</strong> — Hercules co-funded the <strong>Pegasus</strong> air-launched rocket with Orbital Sciences Corporation, building all three solid rocket stages — the world’s first privately developed orbital launch vehicle stages.</p>
 <p><strong>1995</strong> — ATK purchased the Hercules Aerospace Division. The Hercules Composite Product Division was purchased separately by Hexcel Corporation in 1996.</p>
 <p><strong>2015/2018</strong> — ATK merged with Orbital Sciences to form Orbital ATK, then Northrop Grumman acquired Orbital ATK for $7.8B. The Bacchus Works now operates under Northrop Grumman Innovation Systems.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-hercules-chain" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hercules-chain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-hercules-chain">flowchart TD
+    DU["E.I. du Pont de Nemours\n(pre-1912)"] --&gt;|"Federal antitrust divestiture (1912)"| HP
+    HP["Hercules Powder Company\nBacchus Works, Magna UT (1913)"] --&gt;|"Diversifies into aerospace"| HI
+    HI["Hercules, Inc.\n(1966)"] --&gt; HA
+    HA["Hercules Aerospace Co.\n(1978)"] --&gt;|"ATK acquires aerospace division: ~$450M (1995)"| ATK
+    ATK["ATK Bacchus Works\n(1995–2015)"] --&gt;|"Merger with Orbital Sciences (2015)"| OATK
+    OATK["Orbital ATK\n(2015–2018)"] --&gt;|"Northrop Grumman acquires: $7.8B (2018)"| NG
+    NG["Northrop Grumman Innovation Systems\n(2018–present)"]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hercules-chain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.1: Hercules ownership chain. The Bacchus Works in Magna, UT has operated under six corporate owners since 1913.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="the-program-portfolio" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="the-program-portfolio"><span class="header-section-number">5.3</span> The Program Portfolio</h2>
@@ -373,8 +390,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tbody>
 </table>
 </section>
-<section id="exercises" class="level2" data-number="5.7">
-<h2 data-number="5.7" class="anchored" data-anchor-id="exercises"><span class="header-section-number">5.7</span> Exercises</h2>
+<section id="further-reading" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">5.7</span> Further Reading</h2>
+<ul>
+<li>Spinardi, Graham. <em>From Polaris to Trident: The Development of US Fleet Ballistic Missile Technology</em>. Cambridge University Press, 1994. (Definitive account of the Navy SLBM programs that anchored the Hercules lineage.)</li>
+<li>Hunley, J.D. <em>The Development of Propulsion Technology for U.S. Space-Launch Vehicles, 1926–1991</em>. Texas A&amp;M University Press, 2007.</li>
+<li>Harvey, Brian. <em>Russia in Space: The Failed Frontier?</em> Springer/Praxis, 2001. (Useful comparative perspective on how Soviet solid propulsion developed in parallel.)</li>
+<li>United States Department of Justice. <em>United States v. E.I. du Pont de Nemours &amp; Co.</em>, 188 U.S. 127 (1911). (The antitrust judgment that created Hercules Powder Company.)</li>
+</ul>
+</section>
+<section id="exercises" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="exercises"><span class="header-section-number">5.8</span> Exercises</h2>
 <ol type="1">
 <li><p>The Bacchus Works has operated under six corporate owners since 1913. What factors — physical, institutional, contractual — explain this continuity when so much else has changed?</p></li>
 <li><p>Hercules’s pivot from dynamite to rocket propellant occurred over roughly four years (1959–1963). What conditions made this transition possible?</p></li>
@@ -382,8 +408,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Richard Heck worked at Hercules in 1957 during its early rocket work. Research another instance where defense-industrial research produced significant civilian scientific spillovers.</p></li>
 </ol>
 
-
-<!-- -->
 
 </section>
 
@@ -458,57 +482,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         container: window.document.getElementById('quarto-embedded-source-code-modal')
       });
       clipboardModal.on('success', onCopySuccess);
-    }
-    const viewSource = window.document.getElementById('quarto-view-source') ||
-                       window.document.getElementById('quarto-code-tools-source');
-    if (viewSource) {
-      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-      viewSource.addEventListener("click", function(e) {
-        if (sourceUrl) {
-          // rstudio viewer pane
-          if (/\bcapabilities=\b/.test(window.location)) {
-            window.open(sourceUrl);
-          } else {
-            window.location.href = sourceUrl;
-          }
-        } else {
-          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-          modal.show();
-        }
-        return false;
-      });
-    }
-    function toggleCodeHandler(show) {
-      return function(e) {
-        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-        for (let i=0; i<detailsSrc.length; i++) {
-          const details = detailsSrc[i].parentElement;
-          if (show) {
-            details.open = true;
-          } else {
-            details.removeAttribute("open");
-          }
-        }
-        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-        const fromCls = show ? "hidden" : "unhidden";
-        const toCls = show ? "unhidden" : "hidden";
-        for (let i=0; i<cellCodeDivs.length; i++) {
-          const codeDiv = cellCodeDivs[i];
-          if (codeDiv.classList.contains(fromCls)) {
-            codeDiv.classList.remove(fromCls);
-            codeDiv.classList.add(toCls);
-          } 
-        }
-        return false;
-      }
-    }
-    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-    if (hideAllCode) {
-      hideAllCode.addEventListener("click", toggleCodeHandler(false));
-    }
-    const showAllCode = window.document.getElementById("quarto-show-all-code");
-    if (showAllCode) {
-      showAllCode.addEventListener("click", toggleCodeHandler(true));
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
@@ -850,99 +823,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">The Aerojet Lineage: From JATO to Rocketdyne</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># The Hercules Lineage: From Dynamite to Trident {#sec-hercules}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *"The mining industry in Utah would not have developed if it hadn't been for explosives. If it hadn't been for Goddard, the rocket motor, which again is packaged energy, the whole space thing would not have happened. So the whole history of our country, even the whole history of the world, really evolves around explosives technology."*</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; — G.R. Muir, Hercules Group President, 1988</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>Of all the lineages in the American solid rocket industry, Hercules is the most improbable. It begins not with a visionary scientist or a government program, but with a federal antitrust lawsuit against a gunpowder monopoly.</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">## The DuPont Breakup (1912)</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>E.I. du Pont de Nemours &amp; Company had dominated the American explosives market for over a century. By the early 1900s, DuPont controlled roughly 70% of US explosive powder production. In 1912, a federal court ordered DuPont to divest, creating two entirely new companies: Atlas Powder Company and Hercules Powder Company.</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>Hercules received DuPont's black powder and dynamite businesses. Almost immediately, it built the **Bacchus Works** in 1913 in Magna, Utah — chosen for its proximity to the region's copper and silver mines. No one imagined that the Bacchus Works would still be operating a century later, producing propellant for nuclear-armed submarine missiles.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Bacchus Works: One Site, Six Corporate Owners, 110 Years</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>The Bacchus Works is the physical spine of the Hercules story:</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>**1913** — Hercules Powder Company opens the site to produce dynamite for Utah's mining industry.</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>**1940** — Kenvil, NJ disaster. On September 12, the flagship New Jersey plant suffered a catastrophic explosion — 15 buildings destroyed, 51 killed, hundreds injured.</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>**1944** — Hercules began operating the Allegheny Ballistics Laboratory at the Naval Powder Factory near Cumberland, Maryland. Some 700 scientists, engineers, and technicians worked on solid propellant rocket development — the foundation for everything that followed.</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>**1959** — Between 1955 and 1963, Hercules saw its sales double, due in large part to government contracts. In 1959, Hercules diversified into rocket fuels and propulsion systems for the Polaris, Minuteman, and Honest John missiles. Sales of aerospace equipment and fuels accounted for almost 10% of sales in 1961, 15% in 1962, and 25% in 1963.</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>**1961** — "Air Force Plant 81" expansion: 97 new buildings added to Bacchus Works, including a 97,000 square foot administration building.</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>**1966** — Renamed **Hercules, Inc.** as the company's identity shifted decisively from explosives to aerospace.</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>**1978** — Dedicated **Aerospace Division** created to house growing missile and space propulsion work.</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>**1980** — Hercules bought filament-winding technology from a plant in England and adapted it for graphite fibers — stronger than steel, lighter than titanium. Engineers increased the fibers' ability to withstand pressure from 200 pounds per square inch to 1 million psi. This innovation dramatically reduced motor weight and became Hercules's signature technical advantage.</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>**1989** — Hercules co-funded the **Pegasus** air-launched rocket with Orbital Sciences Corporation, building all three solid rocket stages — the world's first privately developed orbital launch vehicle stages.</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>**1995** — ATK purchased the Hercules Aerospace Division. The Hercules Composite Product Division was purchased separately by Hexcel Corporation in 1996.</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>**2015/2018** — ATK merged with Orbital Sciences to form Orbital ATK, then Northrop Grumman acquired Orbital ATK for $7.8B. The Bacchus Works now operates under Northrop Grumman Innovation Systems.</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Program Portfolio</span></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>Hercules's program history reads like a complete catalog of American strategic deterrence:</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>**Polaris (Navy, 1950s–1970s):** Hercules produced rocket motors for the US Navy's 41 for Freedom series — 41 George Washington-class ballistic missile submarines, each carrying 16 Polaris missiles, 656 missiles total. The Polaris gave the United States an invulnerable second-strike capability that fundamentally changed Cold War nuclear strategy.</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>**Minuteman III — Stage 3 (Air Force, 1960s–present):** The third stage of the Minuteman III was Hercules's domain throughout the ICBM program's production run. This heritage now lives in Northrop Grumman's portfolio.</span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>**Poseidon and Trident II D5 (Navy, 1970s–present):** Northrop Grumman now manufactures solid propulsion boost motor systems for all three stages of the Trident II D5 — the current backbone of the US Navy's nuclear deterrent. That capability traces directly to Hercules's Bacchus Works work from the 1970s onward.</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>**Titan IV Strap-On Boosters:** Hercules developed the large strap-on solid boosters for the Titan IVB — the largest unmanned rocket available after Saturn V was retired — which carried Cassini to Saturn and classified NRO payloads to orbit.</span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>**Pegasus (1989–present):** The three Orion solid motors built for Orbital Sciences were the first privately funded orbital launch vehicle stages in history. Pegasus flew its final mission in 2021, with one more planned for 2026.</span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Nobel Laureate Connection</span></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>One footnote deserves mention: Richard F. Heck, recipient of the 2010 Nobel Prize in Chemistry, gained experience with transition metal chemistry while working at Hercules in 1957. Heck won the Nobel for palladium-catalyzed cross coupling reactions — now a foundational tool in pharmaceutical synthesis. The same company making Polaris missile motors was employing the chemist who would later revolutionize drug manufacturing.</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Incest Angle</span></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>Consider the career arc available to a Hercules engineer who joined in 1960:</span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Polaris propellant work at Kenvil or Bacchus</span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Minuteman Stage 3 production at Bacchus Works  </span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Graphite composite casing development in the 1980s</span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Pegasus motor design, 1987–1989</span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Transfer to ATK Bacchus when the aerospace division was sold in 1995</span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Retirement from Orbital ATK or early Northrop Grumman</span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>Their employer's name changed five times. Their facility, their colleagues, their propellant chemistry — largely continuous. This is the incest: the people persist long after the corporate names change.</span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="fu">## Summary</span></span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Period <span class="pp">|</span> Entity <span class="pp">|</span> Key Programs <span class="pp">|</span></span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="pp">|--------|--------|-------------|</span></span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 1913–1959 <span class="pp">|</span> Hercules Powder Co. <span class="pp">|</span> Dynamite, WWII munitions <span class="pp">|</span></span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 1959–1966 <span class="pp">|</span> Hercules Powder Co. <span class="pp">|</span> Polaris, Minuteman III Stage 3, Honest John <span class="pp">|</span></span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 1966–1978 <span class="pp">|</span> Hercules, Inc. <span class="pp">|</span> Polaris, Poseidon, Minuteman, Pershing <span class="pp">|</span></span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 1978–1995 <span class="pp">|</span> Hercules Aerospace Co. <span class="pp">|</span> Trident II, MX/Peacekeeper, Titan IV, Pegasus <span class="pp">|</span></span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 1995–2015 <span class="pp">|</span> ATK Bacchus Works <span class="pp">|</span> Trident II, SLS development, Pegasus <span class="pp">|</span></span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 2015–2018 <span class="pp">|</span> Orbital ATK <span class="pp">|</span> Trident II, SLS, Antares, Pegasus <span class="pp">|</span></span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 2018–present <span class="pp">|</span> Northrop Grumman Innovation Systems <span class="pp">|</span> Trident II D5, Sentinel, SLS <span class="pp">|</span></span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="fu">## Exercises</span></span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>The Bacchus Works has operated under six corporate owners since 1913. What factors — physical, institutional, contractual — explain this continuity when so much else has changed?</span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Hercules's pivot from dynamite to rocket propellant occurred over roughly four years (1959–1963). What conditions made this transition possible?</span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>The Trident II D5 flies on propulsion with direct lineage to Hercules's 1970s–80s work. What are the implications of running nuclear deterrent systems on propulsion technology developed 40–50 years ago?</span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Richard Heck worked at Hercules in 1957 during its early rocket work. Research another instance where defense-industrial research produced significant civilian scientific spillovers.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
-</div></div></div></div></div>
+</nav>
 </div> <!-- /content -->
 
 
