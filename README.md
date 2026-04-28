@@ -1,4 +1,6 @@
-# Solid Rocket Genealogy
+# An Incestuous Community
+
+*How Salt, Tires, and Explosives Built America's Strategic Missiles*
 
 Corporate and technical history of the American solid rocket motor industry — tracing the lineages from explosives to ICBMs to the present duopoly.
 

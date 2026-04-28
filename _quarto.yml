@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 book:
-  title: "Solid Rocket Genealogy"
-  subtitle: "The Incestuous Community of American Strategic Propulsion"
+  title: "An Incestuous Community"
+  subtitle: "How Salt, Tires, and Explosives Built America's Strategic Missiles"
   author: "Troy Altus"
   date: today
   repo-url: https://github.com/altustd/solid-rocket-genealogy-ebook
