@@ -6,7 +6,7 @@ book:
   title: "An Incestuous Community"
   subtitle: "How Salt, Tires, and Explosives Built America's Strategic Missiles"
   author: "Troy Altus"
-  date: today
+  date: "April 2026"
   repo-url: https://github.com/altustd/solid-rocket-genealogy-ebook
   chapters:
     - index.qmd
@@ -22,13 +22,14 @@ book:
     - 10-atk-era.qmd
     - 11-two-survivors.qmd
     - references.qmd
+  appendices:
+    - appendix-a-genealogy.qmd
+    - appendix-b-glossary.qmd
 
 format:
   html:
     theme: cosmo
     toc: true
-    code-fold: true
-    code-tools: true
   pdf:
     documentclass: scrbook
     toc: true

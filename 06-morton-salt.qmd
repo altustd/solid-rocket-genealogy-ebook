@@ -92,6 +92,13 @@ Roger Boisjoly, the Thiokol engineer who warned about the O-rings, spent years a
 
 The solid rocket industry has not forgotten it. Every program review, every launch readiness review, every time an engineer raises a concern about flight conditions — Challenger is the institutional memory that explains why those processes exist.
 
+## Further Reading
+
+- Vaughan, Diane. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. University of Chicago Press, 1996. (The definitive sociological study of the Challenger accident's organizational causes.)
+- McDonald, Allan J., and James R. Hansen. *Truth, Lies, and O-Rings: Inside the Space Shuttle Challenger Disaster*. University Press of Florida, 2009. (Account from the Thiokol engineer who refused to sign the launch recommendation.)
+- Presidential Commission on the Space Shuttle Challenger Accident. *Report to the President*. 1986. (The Rogers Commission Report.)
+- Bazerman, Max H., and Ann E. Tenbrunsel. *Blind Spots: Why We Fail to Do What's Right and What to Do about It*. Princeton University Press, 2011. (Business ethics framework applied in many Challenger case analyses.)
+
 ## Exercises
 
 1. Reconstruct the Morton management's decision logic for acquiring Thiokol in 1982. Given what they knew at the time, was it a reasonable strategic decision? What information would have changed the calculus?

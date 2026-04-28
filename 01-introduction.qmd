@@ -44,6 +44,42 @@ At the Cold War peak, American solid rocket capability resided in seven major co
 
 Chapters 3 through 5 trace the three major lineages in depth: Thiokol, Hercules, and Aerojet. Chapters 6 through 8 address the "strange bedfellows" — the companies whose primary businesses had nothing obvious to do with rocket propulsion but who owned significant solid rocket assets for years or decades. Chapters 9 through 11 trace the contraction and its consequences.
 
+```{mermaid}
+%%| label: fig-convergence
+%%| fig-cap: "Seven Cold War solid rocket motor lineages converging to the present duopoly. UTC CSD was absorbed by Thiokol/Cordant (1996). Olin Aerospace passed through Primex and General Dynamics before reaching Aerojet (2002). ARC was acquired by Aerojet (2003). Rocketdyne merged into Aerojet Rocketdyne (2013)."
+flowchart LR
+    subgraph NG_path ["→ Northrop Grumman Innovation Systems"]
+        direction TB
+        TK["Thiokol\n(1929)"]
+        UTC["UTC Chem. Systems\n(1960s)"]
+        HC["Hercules\n(1912)"]
+        OS["Orbital Sciences\n(1982)"]
+        ATK["ATK\n(1990)"]
+        OATK["Orbital ATK\n(2015)"]
+    end
+    subgraph L3_path ["→ L3Harris / Aerojet Rocketdyne"]
+        direction TB
+        AJ["Aerojet\n(1942)"]
+        ARC["Atlantic Research\n(1950)"]
+        OL["Olin Aerospace\n(1960s)"]
+        RD["Rocketdyne\n(1955)"]
+        ARD["Aerojet Rocketdyne\n(2013)"]
+    end
+
+    UTC --> TK
+    TK --> ATK
+    HC --> ATK
+    OS --> OATK
+    ATK --> OATK
+    OATK --> NG["Northrop Grumman\nInnovation Systems\n(2018)"]
+
+    ARC --> AJ
+    OL --> AJ
+    AJ --> ARD
+    RD --> ARD
+    ARD --> L3["L3Harris /\nAerojet Rocketdyne\n(2023)"]
+```
+
 ## Why the Incest Matters
 
 The incestuous character of the community is not merely a colorful historical detail. It has practical implications for understanding the current industrial base — and its vulnerabilities.

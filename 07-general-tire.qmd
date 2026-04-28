@@ -73,6 +73,13 @@ The General Tire / Aerojet relationship illustrates another dimension of the ind
 
 But at the technical and engineering level, the competition was fierce and personal. Engineers at Aerojet Sacramento and Hercules Bacchus Works and Thiokol Promontory competed, collaborated (on Peacekeeper stages where different companies held different stages), and circulated among employers throughout their careers. The General Tire parentage was largely irrelevant to the day-to-day technical work — which is precisely the point. The corporate structure could be as strange as the market allowed; the engineering culture was its own thing.
 
+## Further Reading
+
+- Rumelt, Richard P. "Diversification Strategy and Profitability." *Strategic Management Journal* 3, no. 4 (1982): 359–369. (Seminal academic study finding that related diversification outperforms unrelated — the academic case against the General Tire model.)
+- Jensen, Michael C. "Agency Costs of Free Cash Flow, Corporate Finance, and Takeovers." *American Economic Review* 76, no. 2 (1986): 323–329. (The theoretical argument that conglomerates destroy value — the intellectual foundation for 1980s bust-ups.)
+- Hunley, J.D. *The Development of Propulsion Technology for U.S. Space-Launch Vehicles, 1926–1991*. Texas A&M University Press, 2007.
+- Davis, Gerald F. *Managed by the Markets: How Finance Re-Shaped America*. Oxford University Press, 2009. (Broader context on the rise and fall of the conglomerate era.)
+
 ## Exercises
 
 1. General Tire's 1955 acquisition of RKO Pictures from Howard Hughes was one of the most unusual corporate transactions of the 1950s. Research this acquisition. What did Hughes receive, and why did he sell? What did General Tire do with the RKO assets?

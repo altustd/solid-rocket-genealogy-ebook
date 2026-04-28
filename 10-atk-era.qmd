@@ -7,6 +7,21 @@ Alliant Techsystems — ATK — is the company that consolidated the American so
 
 The story of ATK is the story of one company making a series of acquisitions so consequential that they permanently restructured a strategic industry.
 
+```{mermaid}
+%%| label: fig-atk-buildup
+%%| fig-cap: "ATK's consolidation of the American solid rocket motor industry, 1990–2018."
+flowchart TD
+    HON["Honeywell Defense\n(pre-1990)"] -->|"1990 spinoff"| ATK0["Alliant Techsystems / ATK\n(1990)"]
+    HC["Hercules Aerospace"] -->|"1995 · ~$450M"| ATK0
+    AIC["AIC Group / Alcoa\n(Cordant / Thiokol assets)"] -->|"2001 · $2.9B"| ATK1
+    ATK0 --> ATK1["ATK — Dominant SRM Supplier\n(2001–2015)"]
+    BL["Blount International\n(Federal, CCI, Speer ammo)"] -->|"2001"| ATK1
+    ATK1 -->|"2015 · Sporting Group spun off"| VO["Vista Outdoor"]
+    ATK1 -->|"2015 merger"| OATK["Orbital ATK\n(2015–2018)"]
+    OS["Orbital Sciences"] -->|"2015 merger"| OATK
+    OATK -->|"2018 · $7.8B"| NG["Northrop Grumman\nInnovation Systems"]
+```
+
 ## The Honeywell Spinoff (1990)
 
 ATK was launched as an independent company in 1990, when Honeywell spun off its defense businesses to shareholders. The former Honeywell businesses had supplied defense products and systems to the US and its allies for 50 years. The initial ATK was primarily a propellants, ammunition, and defense systems manufacturer — significant, but not yet dominant in solid rocket motors specifically.
@@ -78,6 +93,13 @@ Northrop Grumman acquired Orbital ATK in June 2018 for $7.8 billion — bringing
 ATK's 25-year consolidation (1990–2015) permanently restructured the American solid rocket industry. By the time Northrop absorbed Orbital ATK, the seven Cold War suppliers had been reduced to effectively one dominant player (Northrop/ATK heritage) and one competitor (Aerojet Rocketdyne). The consolidation was complete.
 
 The Promontory facility — once Thiokol, then Morton Thiokol, then Thiokol Corporation, then Cordant, then AIC Group, then ATK Thiokol, then ATK Launch Systems Group, then Orbital ATK — now operates as **Northrop Grumman Promontory**. The name on the gate changes. The test stands remain.
+
+## Further Reading
+
+- Utah History Quarterly. "Alliant Techsystems and the Utah Aerospace Industry." Various issues.
+- Defense Science Board. *Task Force Report: Preserving a Healthy and Competitive US Defense Industry to Ensure our National Security*. Office of the Under Secretary of Defense for Acquisition, Technology and Logistics, 2011.
+- Orbital Sciences Corporation. *Annual Reports and SEC Filings, 1990–2015*. (Primary source for the Orbital Sciences side of the merger.)
+- US Senate Armed Services Committee. *Hearings on the State of the Defense Industrial Base*. Various years, 2010–2018. (Congressional perspective on ATK's consolidation and its implications for competition.)
 
 ## Exercises
 

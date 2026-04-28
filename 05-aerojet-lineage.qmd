@@ -5,6 +5,21 @@
 
 The Aerojet lineage is the most scientifically distinguished of the major solid rocket families, born directly from academic rocket research at Caltech. It is also the most administratively tangled — passing through the hands of a tire company, an airline operator, a film studio owner, a chemicals conglomerate, and finally a defense electronics giant, all while producing propulsion systems for America's most critical missiles.
 
+```{mermaid}
+%%| label: fig-aerojet-chain
+%%| fig-cap: "Aerojet ownership chain. Atlantic Research (1950) and Olin/GD Space Propulsion joined via acquisition. Rocketdyne merged in 2013."
+flowchart TD
+    AE["Aerojet Engineering Corp\nCaltech / GALCIT (1942)"] -->|"General Tire becomes majority owner"| AG
+    AG["Aerojet General Corp\n1950s–1984"] --> GC
+    GC["Aerojet / GenCorp, Inc.\n1984–2013"] -->|"Acquires ARC (2003) + Rocketdyne (2013)"| ARD
+    ARD["Aerojet Rocketdyne\n2013–2023"] -->|"L3Harris acquires: $4.7B"| L3
+    L3["L3Harris / Aerojet Rocketdyne\n2023–present"]
+
+    ARC["Atlantic Research Corp\n(1950)"] -->|"Acquired 2003"| ARD
+    OL["Olin/Primex/GD Space Prop.\n(1960s–2002)"] -->|"Acquired 2002"| ARD
+    RD["Pratt & Whitney Rocketdyne\n(United Technologies)"] -->|"GenCorp acquires: $550M (2013)"| ARD
+```
+
 ## Origins: Caltech, JATO, and von Kármán (1942)
 
 Aerojet Engineering Corporation was co-founded on March 19, 1942 by a remarkable group of seven — among them Theodore von Kármán, the Hungarian-American aerodynamicist who was perhaps the most important figure in American aerospace in the mid-20th century, along with Frank Malina, Andrew Haley, Martin Summerfield, and Jack Parsons, all connected to Caltech and the Jet Propulsion Laboratory.
@@ -96,6 +111,13 @@ By 2018, all three Minuteman propulsion lineages had been absorbed into a single
 | 1984–2013 | Aerojet (GenCorp subsidiary) | GenCorp, Inc. | Peacekeeper Stage 2, Delta II, ARC acquisition |
 | 2013–2023 | Aerojet Rocketdyne | GenCorp / Aerojet RD Holdings | Merged with Rocketdyne; RS-25, RL-10, solid motors |
 | 2023–present | Aerojet Rocketdyne | L3Harris Technologies | GBI, Sentinel competition, RL-10, RS-25 |
+
+## Further Reading
+
+- Hunley, J.D. *The Development of Propulsion Technology for U.S. Space-Launch Vehicles, 1926–1991*. Texas A&M University Press, 2007. (Chapter on Aerojet's liquid and solid contributions.)
+- Launius, Roger D., and Dennis R. Jenkins (eds.). *To Reach the High Frontier: A History of U.S. Launch Vehicles*. University Press of Kentucky, 2002.
+- Koppes, Clayton R. *JPL and the American Space Program: A History of the Jet Propulsion Laboratory*. Yale University Press, 1982. (Context for Aerojet's Caltech/GALCIT origins.)
+- Federal Trade Commission. *In the Matter of Lockheed Martin Corporation and Aerojet Rocketdyne Holdings, Inc.* FTC Docket No. 9408, 2022. (The FTC complaint blocking the Lockheed acquisition.)
 
 ## Exercises
 

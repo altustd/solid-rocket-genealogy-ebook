@@ -5,6 +5,25 @@
 
 The Berlin Wall fell on November 9, 1989. Within months, the defense budget that had sustained seven solid rocket motor manufacturers began to contract. What followed was the most rapid and complete consolidation of a major American defense industrial sector since World War II.
 
+```{mermaid}
+%%| label: fig-contraction
+%%| fig-cap: "The Great Contraction: seven Cold War suppliers consolidating to two, 1990–2023. Transaction values approximate."
+flowchart LR
+    HC["Hercules Aerospace"] -->|"1995 · ~$450M"| ATK
+    UTC["UTC Chem. Systems"] -->|"1996"| CT
+    CT["Cordant / Thiokol"] -->|"2001 · $2.9B"| ATK
+    HON["Honeywell Defense"] -->|"1990 spinoff"| ATK["ATK\n(1990–2015)"]
+    OS["Orbital Sciences"] -->|"2015 merger"| OATK
+    ATK -->|"2015 merger"| OATK["Orbital ATK\n(2015–2018)"]
+    OATK -->|"2018 · $7.8B"| NG["Northrop Grumman IS"]
+
+    ARC["Atlantic Research"] -->|"2003"| AJ["Aerojet"]
+    OL["Olin / GD Space"] -->|"2002"| AJ
+    AJ -->|"merge"| ARD
+    RD["Rocketdyne"] -->|"2013 · $550M"| ARD["Aerojet Rocketdyne\n(2013–2023)"]
+    ARD -->|"2023 · $4.7B"| L3["L3Harris / ARD"]
+```
+
 ## The Peak: Seven Suppliers (circa 1980)
 
 At the height of the Cold War, the following companies maintained significant solid rocket motor manufacturing capabilities:
@@ -72,6 +91,13 @@ The industrial towns built around these facilities — Magna, Utah; Kenvil, New 
 **L3Harris / Aerojet Rocketdyne** — containing the Aerojet, Atlantic Research, CSD, and Rocketdyne heritage — holds the second position. Its programs include Ground-Based Interceptor (some programs), RS-25 engine (SLS liquid), RL-10 engine (Centaur upper stage), and various tactical missile motors.
 
 The FTC's requirement that Northrop supply motors to competitors on a non-discriminatory basis is the only structural protection preventing this from becoming a functional monopoly.
+
+## Further Reading
+
+- Markusen, Ann, and Sean Costigan (eds.). *Arming the Future: A Defense Industry for the 21st Century*. Council on Foreign Relations Press, 1999. (Policy perspectives on post-Cold War defense industrial consolidation.)
+- Gholz, Eugene, and Harvey M. Sapolsky. "Restructuring the US Defense Industry." *International Security* 24, no. 3 (1999–2000): 5–51. (Academic analysis of why consolidation occurred and whether two suppliers are sufficient.)
+- United States General Accounting Office. *Defense Industrial Base: Trends in DoD Spending, Industrial Productivity, and Competition*. GAO/PEMD-97-3, 1997.
+- Bitzinger, Richard A. "The Globalization of the Arms Industry: The Next Proliferation Challenge." *International Security* 19, no. 2 (1994): 170–198.
 
 ## Exercises
 

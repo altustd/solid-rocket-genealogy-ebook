@@ -1,0 +1,123 @@
+# Appendix B: Glossary {.unnumbered}
+
+Technical and organizational terms used throughout this book.
+
+---
+
+## Propellant Chemistry and Motor Design
+
+**Ammonium Perchlorate (AP)**
+The oxidizer used in virtually all modern US composite solid propellants. AP provides the oxygen required for propellant combustion. A typical formulation contains 65–70% AP by weight. Manufactured primarily at a single US facility (Kerr-McGee / successor, now Northrop Grumman's HSMC in Henderson, NV), making AP supply a recognized single-point vulnerability in the defense industrial base.
+
+**APCP (Ammonium Perchlorate Composite Propellant)**
+The dominant class of modern solid rocket propellant. Consists of AP oxidizer particles, a polymeric fuel-binder (typically HTPB), aluminum powder fuel, and curing agents, cast as a homogeneous solid. Burns by deflagration rather than detonation. Enabled the large-grain motors required by ICBM and space launch applications.
+
+**Burn Rate**
+The rate at which the propellant surface recedes during combustion, typically expressed in inches per second at a reference pressure. Burn rate determines thrust level and duration. Controlled through propellant formulation (AP particle size, additives) and grain geometry. Increases with chamber pressure — described by Saint-Robert's law: *r = aP^n*.
+
+**Case Mass Fraction**
+The ratio of propellant mass to total motor mass (propellant + case + nozzle). Higher case mass fraction means more propellant per unit of total motor weight, improving vehicle performance. The drive toward higher case mass fraction motivated the transition from steel to aluminum to filament-wound composite cases.
+
+**Composite Propellant**
+A solid propellant consisting of solid oxidizer particles (AP) embedded in a continuous polymeric fuel-binder matrix. Contrasted with double-base propellants. Composite propellants can be cast in large grain sizes with controlled burn characteristics, enabling the large motors required for ICBMs and large launch vehicles.
+
+**Deflagration**
+Rapid subsonic combustion propagating by heat transfer from the burning surface into the unburned propellant. What solid rocket propellants are designed to do. Contrasted with detonation (supersonic shock-wave propagation), which is catastrophic and must be prevented. The distinction between a rocket motor and a bomb is that the propellant deflagrates rather than detonates.
+
+**Double-Base Propellant**
+A solid propellant consisting of nitrocellulose and nitroglycerin — both the fuel and oxidizer are combined within the same molecule. Inherited from the smokeless powder industry. Used extensively in WWII rockets (bazooka, JATO), but limited in scale and energy density compared to composite propellants.
+
+**Field Joint**
+The connection between propellant segments in a segmented solid rocket motor case. In the Space Shuttle SRBs, four propellant segments were manufactured at Promontory, UT and joined at Kennedy Space Center using field joints sealed with O-rings. The failure of an O-ring at the aft field joint of the right SRB caused the Challenger accident on January 28, 1986.
+
+**Grain**
+The shaped propellant charge inside a solid rocket motor case. The grain geometry — the three-dimensional shape of the propellant and its internal void — determines the surface area exposed to combustion at any point in the burn, and therefore the thrust-time profile. Common grain geometries include cylindrical core, star perforation, finocyl (fin + cylinder), and wagon wheel.
+
+**Grain Geometry**
+The cross-sectional profile of a solid propellant grain, designed to produce a desired thrust-time profile. A **star perforation** (internal star-shaped cavity) produces a roughly neutral (constant) burn because the star tips burn away at the same rate new surface is exposed in the valley regions. A simple cylindrical core produces a progressive (increasing) burn. Grain geometry design is a core discipline of solid rocket motor engineering.
+
+**HTPB (Hydroxyl-Terminated Polybutadiene)**
+The fuel-binder polymer used in most modern US composite solid propellants, including the Shuttle SRBs and SLS boosters. Replaced earlier polyurethane and polysulfide binders beginning in the 1970s. HTPB offers better mechanical properties at low temperatures, higher energy density, and better processing characteristics than its predecessors.
+
+**Internal Ballistics**
+The discipline governing combustion, gas dynamics, and motor performance inside a solid rocket motor case. Internal ballistics models predict chamber pressure, thrust, and burn time from propellant properties and grain geometry. A technically demanding field — the same motor, fired at different temperatures or altitudes, will produce different performance.
+
+**JATO (Jet-Assisted Take-Off)**
+Solid or liquid rocket units attached to an aircraft to supplement engine thrust during takeoff from short runways or carrier decks. The development of JATO units at Caltech's GALCIT in the late 1930s was the direct origin of the American solid rocket industry.
+
+**Nozzle Erosion**
+Degradation of the nozzle throat material during firing caused by the hot, high-velocity combustion gases. The throat diameter increases as it erodes, changing the motor's pressure and thrust characteristics. Managing nozzle erosion — through material selection (graphite, carbon-carbon, ablative coatings) and motor design — is a persistent engineering challenge.
+
+**O-Ring**
+An elastomeric seal used at field joints and other interfaces to prevent hot combustion gas from escaping the motor case. In the Shuttle SRBs, the primary and secondary O-rings at each field joint were the only barrier between combustion gases and the exterior. The O-ring material becomes less flexible at cold temperatures, reducing its ability to seal properly — the mechanism behind the Challenger failure.
+
+**Polysulfide Rubber**
+The material Thiokol Chemical Corporation was originally founded to produce. A synthetic rubber with exceptional chemical and solvent resistance, developed accidentally by Joseph Patrick in 1929. Thiokol's polysulfide polymers were the original binder material for composite solid propellants in the early 1950s, before being replaced by polyurethane and eventually HTPB formulations.
+
+**Propellant Ballistics**
+Commonly used as a synonym for internal ballistics; specifically the study of how propellant properties (burn rate, pressure exponent, temperature sensitivity) translate into motor performance.
+
+**Specific Impulse (Isp)**
+The primary efficiency metric for rocket propellants, defined as thrust produced per unit propellant weight flow (units: seconds). Higher Isp means more thrust per pound of propellant consumed. Composite propellants with aluminum fuel achieve Isp values of approximately 250–270 seconds in vacuum. Liquid propellant engines typically achieve higher Isp (300–450 seconds), which is why upper stages often use liquid propulsion.
+
+**Star Perforation**
+A grain geometry in which the internal void is star-shaped. As the propellant burns outward from the star tips and valleys, the total burning surface area remains approximately constant — producing a neutral (flat) thrust-time profile. Widely used in ICBM stages where constant thrust is desired.
+
+**Temperature Sensitivity**
+The dependence of propellant burn rate on initial temperature. A motor fired at hot conditions (e.g., a missile stored in a desert) burns faster and at higher pressure than one fired at cold conditions. Temperature sensitivity is characterized by the coefficient *σ_p* (pressure sensitivity) and *σ_r* (burn rate sensitivity). Managing temperature sensitivity across the operational temperature range (typically −65°F to +165°F for US strategic systems) is a key design constraint.
+
+---
+
+## Programs and Systems
+
+**ICBM (Intercontinental Ballistic Missile)**
+A ballistic missile with a range exceeding 5,500 km, capable of delivering nuclear warheads between continents. Current US ICBMs: Minuteman III (land-based, in service). Replacement: LGM-35A Sentinel (in development).
+
+**LGM-35A Sentinel**
+The US Air Force program to replace the Minuteman III ICBM. Northrop Grumman is the prime contractor. As of 2024, the program has experienced a Nunn-McCurdy cost breach (>37% growth over baseline), triggering Congressional review. The program represents the first new US ICBM development in decades.
+
+**Minuteman III**
+The US Air Force's land-based ICBM, deployed since 1970 and still in service as of this writing. Three-stage solid rocket motor design: Stage 1 (Thiokol/ATK/NGIS, Promontory UT), Stage 2 (Aerojet, Sacramento CA), Stage 3 (Hercules/ATK/NGIS, Bacchus Works UT). Approximately 400 missiles remain on alert.
+
+**Peacekeeper (MX)**
+The US Air Force's second-generation land-based ICBM, deployed 1986–2005. Four-stage solid motor design with stages from four different manufacturers (Thiokol, Aerojet, Hercules, Rocketdyne). Retired under START II Treaty terms; motors converted to Minotaur launch vehicles.
+
+**Pegasus**
+An air-launched orbital rocket developed by Orbital Sciences Corporation with solid rocket stages built by Hercules/ATK. First flight 1990. Dropped from a carrier aircraft at altitude, then fires its three solid stages to reach orbit. The first privately developed orbital launch vehicle stages. Final operational flights occurring circa 2021–2026.
+
+**Polaris**
+The US Navy's first submarine-launched ballistic missile, deployed 1961–1980. Development drove the large-scale industrialization of solid rocket propulsion. Motors supplied by Hercules (Bacchus Works) and Aerojet. Enabled the survivable second-strike capability that anchored Cold War deterrence strategy.
+
+**SLS (Space Launch System)**
+NASA's heavy-lift launch vehicle using two five-segment solid rocket boosters (Northrop Grumman, Promontory UT) as the direct successor to the Space Shuttle SRBs. First flight: Artemis I, November 2022.
+
+**SLBM (Submarine-Launched Ballistic Missile)**
+A ballistic missile designed to be launched from a submerged submarine. Current US SLBM: Trident II D5. SLBMs are the most survivable leg of the nuclear triad.
+
+**SRB (Solid Rocket Booster)**
+A large solid rocket motor used to augment the thrust of a launch vehicle at liftoff. The Space Shuttle SRBs (Thiokol/ATK) and SLS SRBs (ATK/Northrop Grumman) are the largest solid rocket motors ever flown.
+
+**SRM (Solid Rocket Motor)**
+General term for any rocket motor using solid propellant. Used interchangeably with "solid rocket" in this book.
+
+**Trident II D5**
+The current US Navy submarine-launched ballistic missile. Three solid stages, all manufactured by Northrop Grumman Innovation Systems (Hercules/ATK heritage, Bacchus Works). The primary sea-based nuclear deterrent for both the US and UK.
+
+---
+
+## Organizational and Policy Terms
+
+**BRAC (Base Realignment and Closure)**
+A statutory process by which Congress authorizes the Department of Defense to close or reorganize military installations. Multiple BRAC rounds in the 1990s (1991, 1993, 1995, 2005) eliminated government facilities that had provided sustaining work for the solid rocket industrial base.
+
+**FTC (Federal Trade Commission)**
+The US regulatory body responsible for reviewing mergers and acquisitions for anticompetitive effects. The FTC has played a central structural role in the solid rocket industry — approving the Northrop/Orbital ATK merger with conditions (2018), blocking the Lockheed/Aerojet Rocketdyne merger (2022), and approving the L3Harris/Aerojet Rocketdyne merger (2023).
+
+**Nunn-McCurdy Act**
+A federal law requiring the Department of Defense to notify Congress when a major defense program's unit cost grows beyond specified thresholds (15% = "significant"; 25% = "critical"). A critical breach requires the Secretary of Defense to certify that the program is essential to national security before it can continue. The LGM-35A Sentinel ICBM experienced a Nunn-McCurdy breach in 2024.
+
+**Sherman Antitrust Act (1890)**
+The primary US federal antitrust statute, prohibiting monopolization and restraint of trade. The 1912 breakup of DuPont's explosives monopoly under the Sherman Act created Hercules Powder Company — the origin of the Hercules lineage that eventually became part of Northrop Grumman's solid rocket heritage.
+
+**Sole-Source Contract**
+A government procurement contract awarded to a single supplier without competitive bidding, typically because only one contractor can provide the required capability. Sole-source relationships are common in strategic solid rocket motor production, where the technical requirements and cleared facilities limit competition to one or two qualified suppliers.

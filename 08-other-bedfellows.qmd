@@ -85,6 +85,13 @@ Looking across these stories, several patterns emerge:
 
 **The divorces are always driven by crisis or strategy, rarely by success.** Morton divorced Thiokol because of Challenger. Hercules sold its aerospace division because specialty chemicals were growing faster. Honeywell spun off ATK to simplify its portfolio for institutional investors. The bedfellows stay together until something forces them apart.
 
+## Further Reading
+
+- Koistinen, Paul A.C. *Arsenal of World War II: The Political Economy of American Warfare, 1940–1945*. University Press of Kansas, 2004. (Context for how chemical and industrial companies entered defense production.)
+- Markusen, Ann. *The Rise of the Gunbelt: The Military Remapping of Industrial America*. Oxford University Press, 1991. (How defense contracting reshaped American industrial geography — relevant to why these unusual parent companies ended up in Utah.)
+- US Government Accountability Office. *Defense Industrial Base: Actions Needed to Improve the Availability of Critical Materials and Technologies*. GAO-23-105387, 2023.
+- Orbital Sciences Corporation. *Annual Reports, 1989–2015*. (Primary source for the Orbital Sciences / Pegasus / Ball Aerospace story.)
+
 ## Exercises
 
 1. Identify the chemistry connection in each of the following pairings: Morton Salt + Thiokol, General Tire + Aerojet, Alcoa + Cordant, Honeywell + ATK. Is chemistry always the underlying rationale, or are some of these purely financial?

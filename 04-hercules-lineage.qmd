@@ -37,6 +37,19 @@ The Bacchus Works is the physical spine of the Hercules story:
 
 **2015/2018** — ATK merged with Orbital Sciences to form Orbital ATK, then Northrop Grumman acquired Orbital ATK for $7.8B. The Bacchus Works now operates under Northrop Grumman Innovation Systems.
 
+```{mermaid}
+%%| label: fig-hercules-chain
+%%| fig-cap: "Hercules ownership chain. The Bacchus Works in Magna, UT has operated under six corporate owners since 1913."
+flowchart TD
+    DU["E.I. du Pont de Nemours\n(pre-1912)"] -->|"Federal antitrust divestiture (1912)"| HP
+    HP["Hercules Powder Company\nBacchus Works, Magna UT (1913)"] -->|"Diversifies into aerospace"| HI
+    HI["Hercules, Inc.\n(1966)"] --> HA
+    HA["Hercules Aerospace Co.\n(1978)"] -->|"ATK acquires aerospace division: ~$450M (1995)"| ATK
+    ATK["ATK Bacchus Works\n(1995–2015)"] -->|"Merger with Orbital Sciences (2015)"| OATK
+    OATK["Orbital ATK\n(2015–2018)"] -->|"Northrop Grumman acquires: $7.8B (2018)"| NG
+    NG["Northrop Grumman Innovation Systems\n(2018–present)"]
+```
+
 ## The Program Portfolio
 
 Hercules's program history reads like a complete catalog of American strategic deterrence:
@@ -79,6 +92,13 @@ Their employer's name changed five times. Their facility, their colleagues, thei
 | 1995–2015 | ATK Bacchus Works | Trident II, SLS development, Pegasus |
 | 2015–2018 | Orbital ATK | Trident II, SLS, Antares, Pegasus |
 | 2018–present | Northrop Grumman Innovation Systems | Trident II D5, Sentinel, SLS |
+
+## Further Reading
+
+- Spinardi, Graham. *From Polaris to Trident: The Development of US Fleet Ballistic Missile Technology*. Cambridge University Press, 1994. (Definitive account of the Navy SLBM programs that anchored the Hercules lineage.)
+- Hunley, J.D. *The Development of Propulsion Technology for U.S. Space-Launch Vehicles, 1926–1991*. Texas A&M University Press, 2007.
+- Harvey, Brian. *Russia in Space: The Failed Frontier?* Springer/Praxis, 2001. (Useful comparative perspective on how Soviet solid propulsion developed in parallel.)
+- United States Department of Justice. *United States v. E.I. du Pont de Nemours & Co.*, 188 U.S. 127 (1911). (The antitrust judgment that created Hercules Powder Company.)
 
 ## Exercises
 

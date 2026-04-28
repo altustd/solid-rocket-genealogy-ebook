@@ -84,6 +84,21 @@ The full corporate name sequence of the Promontory facility:
 
 Six corporate names. One facility. The same Wasatch Mountains in the background of every employee badge photo.
 
+```{mermaid}
+%%| label: fig-thiokol-chain
+%%| fig-cap: "Thiokol ownership chain, 1929–present. The Promontory, UT facility has operated continuously under all six corporate names."
+flowchart TD
+    T0["Thiokol Chemical Corp\nKansas City, MO (1929)"] --> T1
+    T1["Thiokol Chemical Corp\nPromontory UT + Elkton MD\n1951–1982"] -->|"Morton International acquires"| MT
+    MT["Morton Thiokol, Inc.\n1982–1989"] -->|"Challenger fallout — spun off"| TC
+    TC["Thiokol Corporation\n1989–1998"] -->|"Renamed; acquires Howmet & Huck"| CT
+    CT["Cordant Technologies\n1998–2000"] -->|"Merges with Alcoa divisions"| AIC
+    AIC["AIC Group\n2000–2001"] -->|"ATK acquires propulsion assets: $2.9B"| ATK
+    ATK["ATK Thiokol / ATK Launch Systems\n2001–2015"] -->|"Merges with Orbital Sciences"| OATK
+    OATK["Orbital ATK\n2015–2018"] -->|"Northrop Grumman acquires: $7.8B"| NG
+    NG["Northrop Grumman Innovation Systems\n2018–present"]
+```
+
 ## The ATK Acquisition (2001)
 
 Alliant Techsystems (ATK) acquired Thiokol Corporation in 2001 for approximately $685 million. The acquisition is discussed in more detail in Chapter 10; the key point here is what ATK acquired.

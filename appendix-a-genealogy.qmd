@@ -1,0 +1,139 @@
+# Appendix A: Corporate Genealogy Reference {.unnumbered}
+
+This appendix provides a consolidated reference for every significant corporate transaction in the American solid rocket motor industry from 1912 to the present. Events are organized by current inheritor, then chronologically.
+
+---
+
+## Northrop Grumman Innovation Systems (NGIS) Heritage
+
+NGIS contains the merged heritage of Thiokol, Hercules, UTC Chemical Systems Division, and Orbital Sciences.
+
+### Thiokol / Cordant / ATK Lineage
+
+| Year | Event | From | To | Approx. Value |
+|------|-------|------|----|--------------|
+| 1929 | Founded | — | Thiokol Chemical Corporation | — |
+| 1982 | Acquisition | Morton International | Morton Thiokol, Inc. | ~$200M |
+| 1989 | Spinoff | Morton Thiokol | Thiokol Corporation (independent) | — |
+| 1996 | Acquisition | United Technologies (CSD) | Thiokol Corporation / Cordant | not disclosed |
+| 1998 | Rename | Thiokol Corporation | Cordant Technologies | — |
+| 2000 | Merger | Cordant Technologies + Alcoa divisions | AIC Group (Alcoa Industrial Components) | — |
+| 2001 | Acquisition of propulsion assets | AIC Group / Alcoa | Alliant Techsystems (ATK) | $2.9B |
+
+### Hercules Lineage
+
+| Year | Event | From | To | Approx. Value |
+|------|-------|------|----|--------------|
+| 1912 | Federal antitrust divestiture | DuPont (ordered by court) | Hercules Powder Company | — |
+| 1966 | Rename | Hercules Powder Company | Hercules, Inc. | — |
+| 1978 | Division created | Hercules, Inc. | Hercules Aerospace Company (division) | — |
+| 1995 | Acquisition of aerospace division | Hercules, Inc. | Alliant Techsystems (ATK) | ~$450M |
+
+### UTC Chemical Systems Division Lineage
+
+| Year | Event | From | To | Approx. Value |
+|------|-------|------|----|--------------|
+| 1960s | Founded as division | United Technologies Corp. | Chemical Systems Division (CSD), Sunnyvale CA | — |
+| 1996 | Acquisition | United Technologies Corp. | Thiokol Corporation / Cordant Technologies | not disclosed |
+
+### Orbital Sciences Lineage
+
+| Year | Event | From | To | Approx. Value |
+|------|-------|------|----|--------------|
+| 1982 | Founded | — | Orbital Sciences Corporation | — |
+| 1990 | Honeywell spinoff | Honeywell Inc. | Alliant Techsystems (ATK) | — |
+| 2001 | Blount ammunition acquisition | Blount International | ATK (Sporting Group) | ~$200M |
+| 2015 | Merger | ATK Aerospace + Orbital Sciences Corporation | Orbital ATK | — |
+| 2015 | Spinoff | ATK | Vista Outdoor (Sporting Group) | — |
+| 2018 | Acquisition | Orbital ATK | Northrop Grumman Innovation Systems | $7.8B |
+
+---
+
+## L3Harris / Aerojet Rocketdyne Heritage
+
+Aerojet Rocketdyne contains the merged heritage of Aerojet, Atlantic Research Corporation, Olin/Primex/General Dynamics Space Systems, and Rocketdyne.
+
+### Aerojet Lineage
+
+| Year | Event | From | To | Approx. Value |
+|------|-------|------|----|--------------|
+| 1942 | Founded | GALCIT alumni + General Tire investment | Aerojet Engineering Corporation | — |
+| 1942 | Major investment | General Tire & Rubber Company | Aerojet (majority shareholder) | — |
+| 1984 | Rename / restructure | General Tire & Rubber Company | GenCorp, Inc. (holding company) | — |
+| 2002 | Acquisition | General Dynamics (Space Propulsion business, ex-Olin/Primex) | Aerojet | not disclosed |
+| 2003 | Acquisition | Atlantic Research Corporation | Aerojet | not disclosed |
+| 2013 | Acquisition | Pratt & Whitney Rocketdyne (United Technologies) | GenCorp / Aerojet | $550M |
+| 2013 | Merger | Aerojet + Rocketdyne | Aerojet Rocketdyne | — |
+| 2015 | Rename | GenCorp, Inc. | Aerojet Rocketdyne Holdings, Inc. | — |
+| 2022 | Blocked acquisition | Lockheed Martin attempted to acquire Aerojet RD | FTC blocked 4-0; Lockheed withdrew | $4.4B |
+| 2023 | Acquisition | Aerojet Rocketdyne Holdings | L3Harris Technologies | $4.7B |
+
+### Atlantic Research Corporation (ARC) Lineage
+
+| Year | Event | From | To | Approx. Value |
+|------|-------|------|----|--------------|
+| 1950 | Founded | — | Atlantic Research Corporation, Alexandria VA | — |
+| 1994 | Acquisition | ARC | Sequa Corporation | not disclosed |
+| 2003 | Acquisition | Sequa Corporation (ARC) | Aerojet | not disclosed |
+
+### Olin / Primex / General Dynamics Space Systems Lineage
+
+| Year | Event | From | To | Approx. Value |
+|------|-------|------|----|--------------|
+| ~1960s | Founded | — | Rocket Research Corporation, Redmond WA | — |
+| ~1985 | Acquisition | Olin Corporation | Olin Aerospace Company (formerly Rocket Research) | — |
+| 1996 | Acquisition | Olin Corporation | Primex Technologies | not disclosed |
+| 2001 | Acquisition | Primex Technologies | General Dynamics Ordnance and Tactical Systems | not disclosed |
+| 2002 | Acquisition of Space Propulsion business | General Dynamics | Aerojet | not disclosed |
+
+### Rocketdyne Lineage
+
+| Year | Event | From | To | Approx. Value |
+|------|-------|------|----|--------------|
+| 1955 | Rocketdyne Division established | North American Aviation | Rocketdyne Division | — |
+| 1967 | Merger | North American Aviation + Rockwell-Standard | North American Rockwell / Rockwell International | — |
+| 1996 | Acquisition | Rockwell International (Rocketdyne Division) | Boeing Company | — |
+| 2005 | Acquisition | Boeing (Rocketdyne) | United Technologies / Pratt & Whitney | $700M |
+| 2013 | Acquisition | Pratt & Whitney Rocketdyne | GenCorp / Aerojet | $550M |
+
+---
+
+## Regulatory and Antitrust Events
+
+| Year | Case / Event | Parties | Outcome |
+|------|-------------|---------|---------|
+| 1912 | *United States v. E.I. du Pont de Nemours* (Sherman Act) | DOJ vs. DuPont | DuPont ordered to divest; created Hercules Powder Co. and Atlas Powder Co. |
+| 2018 | FTC review: Northrop Grumman / Orbital ATK | FTC, Northrop, Orbital ATK | Approved with behavioral remedy: Northrop required to supply SRMs to competitors on non-discriminatory basis |
+| 2022 | FTC vs. Lockheed Martin / Aerojet Rocketdyne | FTC, Lockheed, Aerojet RD | Blocked 4-0; Lockheed withdrew February 2022 |
+| 2023 | FTC review: L3Harris / Aerojet Rocketdyne | FTC, L3Harris, Aerojet RD | Approved; L3Harris not a vertical integration concern |
+
+---
+
+## Key Facilities: Current Status
+
+| Facility | Location | Original Owner | Current Operator | Active Since |
+|----------|----------|---------------|-----------------|--------------|
+| Promontory | Box Elder County, UT | Thiokol Chemical (1957) | Northrop Grumman | 1957 |
+| Bacchus Works | Magna, UT | Hercules Powder (1913) | Northrop Grumman | 1913 |
+| Elkton, MD | Cecil County, MD | Thiokol Chemical (1951) | Northrop Grumman | 1951 |
+| Sacramento Complex | Rancho Cordova, CA | Aerojet (1950) | L3Harris / Aerojet RD (reduced) | 1950 |
+| Camden, AR | Ouachita County, AR | Aerojet / Atlantic Research | L3Harris / Aerojet RD | 1960s |
+
+---
+
+## Program-to-Producer Reference
+
+| Program | Stage | Cold War Producer | Current Operator |
+|---------|-------|------------------|-----------------|
+| Minuteman III | Stage 1 | Thiokol | Northrop Grumman (sustainment) |
+| Minuteman III | Stage 2 | Aerojet | L3Harris / Aerojet RD (sustainment) |
+| Minuteman III | Stage 3 | Hercules | Northrop Grumman (sustainment) |
+| Trident II D5 | Stages 1–3 | Hercules (primary), Thiokol | Northrop Grumman |
+| Space Shuttle SRB | Single (4-segment) | Morton Thiokol / Thiokol / ATK | Program ended 2011 |
+| SLS SRB | Single (5-segment) | ATK / Orbital ATK | Northrop Grumman |
+| Peacekeeper (MX) | Stage 1 | Thiokol | Retired 2005 |
+| Peacekeeper (MX) | Stage 2 | Aerojet | Retired 2005 |
+| Peacekeeper (MX) | Stage 3 | Hercules | Retired 2005 |
+| Peacekeeper (MX) | Stage 4 | Rocketdyne | Retired 2005 |
+| Pegasus XL | Stages 1–3 | Hercules / ATK | Northrop Grumman (final flights) |
+| LGM-35A Sentinel | TBD | — | Northrop Grumman (prime) |
