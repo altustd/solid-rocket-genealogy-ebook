@@ -12,19 +12,19 @@ The phrase *incestuous community* appears in oral histories of the American soli
 
 This book traces the lineages. It is organized not by chronology but by bloodline — by corporate ancestor. Each chapter follows a single genealogical thread from its origin to its present form, then steps back to show how the threads braided together.
 
-## What This Book Is
+## What This Book Is {.unnumbered}
 
 A corporate and technical history of the American solid rocket motor industry from approximately 1912 to the present. The focus is on solid propulsion for strategic systems — ballistic missiles and their boosters — with secondary attention to space launch applications where they directly follow from the military heritage.
 
 This is not a hagiography of engineers or a polemic about the defense industry. It is an attempt to understand how a technically coherent community of practice survived, through every corporate reorganization, the continuous institutional memory that the weapons required.
 
-## What This Book Is Not
+## What This Book Is Not {.unnumbered}
 
 This is not a technical handbook on solid propellant chemistry, internal ballistics, or motor design. Some technical context appears where it illuminates the business or historical narrative — why a particular formulation mattered, what made case design difficult — but readers seeking engineering depth should consult the technical literature.
 
 It is also not a comprehensive catalog of every solid rocket program. Programs appear when they shaped the corporate genealogy or when their history illustrates the broader argument.
 
-## How to Read It
+## How to Read It {.unnumbered}
 
 The chapters are organized by lineage. You may read them in order — the sequence follows a rough chronological logic within each corporate family — or you may follow a single thread from introduction to conclusion. The final two chapters synthesize the consolidation story and its implications.
 
