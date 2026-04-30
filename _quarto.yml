@@ -10,17 +10,23 @@ book:
   repo-url: https://github.com/altustd/solid-rocket-genealogy-ebook
   chapters:
     - index.qmd
-    - 01-introduction.qmd
-    - 02-industry-origins.qmd
-    - 03-thiokol-lineage.qmd
-    - 04-hercules-lineage.qmd
-    - 05-aerojet-lineage.qmd
-    - 06-morton-salt.qmd
-    - 07-general-tire.qmd
-    - 08-other-bedfellows.qmd
-    - 09-post-cold-war.qmd
-    - 10-atk-era.qmd
-    - 11-two-survivors.qmd
+    - part: "Part I: Origins and Lineages"
+      chapters:
+        - 01-introduction.qmd
+        - 02-industry-origins.qmd
+        - 03-thiokol-lineage.qmd
+        - 04-hercules-lineage.qmd
+        - 05-aerojet-lineage.qmd
+    - part: "Part II: Strange Bedfellows"
+      chapters:
+        - 06-morton-salt.qmd
+        - 07-general-tire.qmd
+        - 08-other-bedfellows.qmd
+    - part: "Part III: Contraction and Consolidation"
+      chapters:
+        - 09-post-cold-war.qmd
+        - 10-atk-era.qmd
+        - 11-two-survivors.qmd
     - references.qmd
   appendices:
     - appendix-a-genealogy.qmd
