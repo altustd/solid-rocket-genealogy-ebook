@@ -11,8 +11,9 @@ book:
   date: "April 2026"
   repo-url: https://github.com/altustd/solid-rocket-genealogy-ebook
   chapters:
-    - index.qmd
     - preface.qmd
+    - introduction.qmd
+    - index.qmd
     - part: "Part I: Origins and Lineages"
       chapters:
         - 02-industry-origins.qmd
@@ -43,6 +44,7 @@ format:
     fig-align: center
     mermaid:
       theme: neutral
+    include-in-header: chapter-offset.html
   pdf:
     documentclass: book
     classoption: [letterpaper, 11pt]

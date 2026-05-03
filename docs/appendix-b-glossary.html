@@ -71,6 +71,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Hide the home-page sidebar entry (index.html) entirely
+  document.querySelectorAll(
+    '.sidebar-item a[href$="index.html"], .sidebar-item a[href="./index.html"]'
+  ).forEach(function (a) {
+    var item = a.closest('.sidebar-item');
+    if (item) item.style.display = 'none';
+  });
+
+  // Decrement every chapter-number span by 1 (compensates for index.qmd = Ch 1)
+  document.querySelectorAll('.chapter-number').forEach(function (span) {
+    var n = parseInt(span.textContent, 10);
+    if (!isNaN(n) && n >= 1) {
+      span.textContent = String(n - 1);
+    }
+  });
+});
+</script>
 
 
 </head>
@@ -114,14 +133,20 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction: The Incestuous Community</span></span></a>
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./preface.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction: The Incestuous Community</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">An Incestuous Community</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">

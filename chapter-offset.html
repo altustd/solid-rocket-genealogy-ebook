@@ -1,0 +1,19 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Hide the home-page sidebar entry (index.html) entirely
+  document.querySelectorAll(
+    '.sidebar-item a[href$="index.html"], .sidebar-item a[href="./index.html"]'
+  ).forEach(function (a) {
+    var item = a.closest('.sidebar-item');
+    if (item) item.style.display = 'none';
+  });
+
+  // Decrement every chapter-number span by 1 (compensates for index.qmd = Ch 1)
+  document.querySelectorAll('.chapter-number').forEach(function (span) {
+    var n = parseInt(span.textContent, 10);
+    if (!isNaN(n) && n >= 1) {
+      span.textContent = String(n - 1);
+    }
+  });
+});
+</script>

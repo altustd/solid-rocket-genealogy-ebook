@@ -35,7 +35,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./preface.html" rel="next">
+<link href="./02-industry-origins.html" rel="next">
+<link href="./introduction.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -73,10 +74,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral">
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Hide the home-page sidebar entry (index.html) entirely
+  document.querySelectorAll(
+    '.sidebar-item a[href$="index.html"], .sidebar-item a[href="./index.html"]'
+  ).forEach(function (a) {
+    var item = a.closest('.sidebar-item');
+    if (item) item.style.display = 'none';
+  });
+
+  // Decrement every chapter-number span by 1 (compensates for index.qmd = Ch 1)
+  document.querySelectorAll('.chapter-number').forEach(function (span) {
+    var n = parseInt(span.textContent, 10);
+    if (!isNaN(n) && n >= 1) {
+      span.textContent = String(n - 1);
+    }
+  });
+});
+</script>
 
 
 </head>
@@ -90,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction: The Incestuous Community</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">An Incestuous Community</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -120,14 +136,20 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction: The Incestuous Community</span></span></a>
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./preface.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction: The Incestuous Community</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">An Incestuous Community</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -257,23 +279,8 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#sec-introduction" id="toc-sec-introduction" class="nav-link active" data-scroll-target="#sec-introduction"><span class="header-section-number">1</span> Introduction: The Incestuous Community</a>
-  <ul class="collapse">
-  <li><a href="#the-puzzle" id="toc-the-puzzle" class="nav-link" data-scroll-target="#the-puzzle"><span class="header-section-number">1.1</span> The Puzzle</a></li>
-  <li><a href="#corporate-ancestry-vs.-practical-ancestry" id="toc-corporate-ancestry-vs.-practical-ancestry" class="nav-link" data-scroll-target="#corporate-ancestry-vs.-practical-ancestry"><span class="header-section-number">1.2</span> Corporate Ancestry vs.&nbsp;Practical Ancestry</a></li>
-  <li><a href="#the-seven-lineages" id="toc-the-seven-lineages" class="nav-link" data-scroll-target="#the-seven-lineages"><span class="header-section-number">1.3</span> The Seven Lineages</a></li>
-  <li><a href="#why-the-incest-matters" id="toc-why-the-incest-matters" class="nav-link" data-scroll-target="#why-the-incest-matters"><span class="header-section-number">1.4</span> Why the Incest Matters</a></li>
-  <li><a href="#a-note-on-sources" id="toc-a-note-on-sources" class="nav-link" data-scroll-target="#a-note-on-sources"><span class="header-section-number">1.5</span> A Note on Sources</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">1.6</span> Summary</a></li>
-  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">1.7</span> Further Reading</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -310,131 +317,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="sec-introduction" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Introduction: The Incestuous Community</h1>
-<blockquote class="blockquote">
-<p><em>“I have worked for Thiokol, Morton Thiokol, Thiokol again, ATK Thiokol, ATK Launch Systems, and Northrop Grumman. I have never changed my job.”</em> — Retired engineer, Promontory, Utah, 2019</p>
-</blockquote>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Learning Objectives
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Understand the scope and methodology of industrial genealogy as applied to the solid rocket sector</li>
-<li>Identify the central thesis: corporate boundaries are porous; technical knowledge and human capital are the durable carriers of institutional memory</li>
-<li>Distinguish between corporate ancestry (formal ownership chains) and practical ancestry (propellant chemistry, facility continuity, personnel networks)</li>
-</ul>
-</div>
-</div>
-<section id="the-puzzle" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="the-puzzle"><span class="header-section-number">1.1</span> The Puzzle</h2>
-<p>By 2020, American strategic ballistic missiles — the Minuteman III ICBMs in their hardened silos across North Dakota, Wyoming, and Montana; the Trident II D5s on Ohio-class submarines beneath the world’s oceans — depended for their solid rocket motors on exactly two companies: Northrop Grumman Innovation Systems and Aerojet Rocketdyne.</p>
-<p>In 1980, there had been seven. In 1965, there had been more.</p>
-<p>The contraction is easy to explain in broad strokes: the Cold War ended, the defense budget fell, and the market could no longer support seven manufacturers of a product the government bought in small quantities at unpredictable intervals. What is harder to explain — and more interesting — is how the knowledge, the facilities, and the people that had been distributed across seven companies ended up concentrated in two.</p>
-<p>The answer requires tracing genealogies.</p>
-</section>
-<section id="corporate-ancestry-vs.-practical-ancestry" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="corporate-ancestry-vs.-practical-ancestry"><span class="header-section-number">1.2</span> Corporate Ancestry vs.&nbsp;Practical Ancestry</h2>
-<p>The distinction that runs through every chapter of this book is between two kinds of ancestry.</p>
-<p><strong>Corporate ancestry</strong> is the formal chain of ownership and legal succession. Thiokol Chemical Corporation was acquired by Morton International in 1982 to form Morton Thiokol, Inc.&nbsp;Morton Thiokol was spun off as Thiokol Corporation in 1989, then acquired by ATK in 2001. ATK merged with Orbital Sciences in 2015 to form Orbital ATK, which was acquired by Northrop Grumman in 2018. Corporate ancestry can be read off a merger agreement or a SEC filing.</p>
-<p><strong>Practical ancestry</strong> is the chain through which technical capability actually passes. The propellant formulation for the Minuteman III Stage 1 motor was developed by Thiokol engineers at Promontory, Utah in the early 1960s. Many of those engineers were still working at the same facility — under whatever corporate name appeared on their badge — into the 1990s. The formulation itself, refined but recognizable, was still in production. The facility, expanded and upgraded but continuous, still operated. The corporate name had changed three times. The practical ancestry had not.</p>
-<p>This is what “incestuous community” means. Not that the corporate ownership is incestuous — that phrase implies something sinister that the history does not quite support — but that the community of practice is so small, so technically specialized, and so geographically concentrated that it functions, across corporate boundaries, like a single extended family.</p>
-</section>
-<section id="the-seven-lineages" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="the-seven-lineages"><span class="header-section-number">1.3</span> The Seven Lineages</h2>
-<p>At the Cold War peak, American solid rocket capability resided in seven major corporate entities, each with a distinct genealogical origin:</p>
-<ol type="1">
-<li><strong>Thiokol</strong> — chemical origins in polysulfide rubber polymers; Minuteman I and II Stage 1; Space Shuttle SRBs</li>
-<li><strong>Hercules</strong> — antitrust breakup of DuPont; Polaris and Trident; Pegasus</li>
-<li><strong>Aerojet</strong> — Caltech GALCIT origins; Titan; Minuteman II Stage 2</li>
-<li><strong>Atlantic Research Corporation</strong> — independent research origins; JATO and tactical systems</li>
-<li><strong>United Technologies Chemical Systems Division</strong> — industrial diversification into aerospace</li>
-<li><strong>Olin Aerospace</strong> (née Rocket Research Corporation) — monopropellant origins, tactical systems</li>
-<li><strong>Rocketdyne</strong> — primarily liquid rocket heritage, marginal solid capability</li>
-</ol>
-<p>Chapters 3 through 5 trace the three major lineages in depth: Thiokol, Hercules, and Aerojet. Chapters 6 through 8 address the “strange bedfellows” — the companies whose primary businesses had nothing obvious to do with rocket propulsion but who owned significant solid rocket assets for years or decades. Chapters 9 through 11 trace the contraction and its consequences.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div id="fig-convergence" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-convergence-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div>
-<pre class="mermaid mermaid-js" data-label="fig-convergence">flowchart LR
-    subgraph NG_path ["→ Northrop Grumman Innovation Systems"]
-        direction TB
-        TK["Thiokol\n(1929)"]
-        UTC["UTC Chem. Systems\n(1960s)"]
-        HC["Hercules\n(1912)"]
-        OS["Orbital Sciences\n(1982)"]
-        ATK["ATK\n(1990)"]
-        OATK["Orbital ATK\n(2015)"]
-    end
-    subgraph L3_path ["→ L3Harris / Aerojet Rocketdyne"]
-        direction TB
-        AJ["Aerojet\n(1942)"]
-        ARC["Atlantic Research\n(1950)"]
-        OL["Olin Aerospace\n(1960s)"]
-        RD["Rocketdyne\n(1955)"]
-        ARD["Aerojet Rocketdyne\n(2013)"]
-    end
-
-    UTC --&gt; TK
-    TK --&gt; ATK
-    HC --&gt; ATK
-    OS --&gt; OATK
-    ATK --&gt; OATK
-    OATK --&gt; NG["Northrop Grumman\nInnovation Systems\n(2018)"]
-
-    ARC --&gt; AJ
-    OL --&gt; AJ
-    AJ --&gt; ARD
-    RD --&gt; ARD
-    ARD --&gt; L3["L3Harris /\nAerojet Rocketdyne\n(2023)"]
-</pre>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-convergence-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.1: Seven Cold War solid rocket motor lineages converging to the present duopoly. UTC CSD was absorbed by Thiokol/Cordant (1996). Olin Aerospace passed through Primex and General Dynamics before reaching Aerojet (2002). ARC was acquired by Aerojet (2003). Rocketdyne merged into Aerojet Rocketdyne (2013).
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="why-the-incest-matters" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="why-the-incest-matters"><span class="header-section-number">1.4</span> Why the Incest Matters</h2>
-<p>The incestuous character of the community is not merely a colorful historical detail. It has practical implications for understanding the current industrial base — and its vulnerabilities.</p>
-<p>When Northrop Grumman acquired Orbital ATK in 2018, it acquired not just a legal entity and a set of facilities. It acquired the institutional memory embedded in the workforce, the accumulated process knowledge stored in manufacturing procedures developed over decades, and the technical relationships with government program offices built by individual engineers over careers.</p>
-<p>What it could not acquire — or guarantee to retain — was the people who carried that knowledge. The wave of retirements that accelerated as the baby boomer generation aged out of the workforce in the 2010s and 2020s represented a transfer of institutional memory that had no parallel in the merger and acquisition history of the industry.</p>
-<p>Corporate genealogy is the record of what was bought and sold. The more important genealogy — harder to trace, impossible to price — is the one that lives in the memory of engineers who have never changed their jobs, only their employers.</p>
-</section>
-<section id="a-note-on-sources" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="a-note-on-sources"><span class="header-section-number">1.5</span> A Note on Sources</h2>
-<p>This book draws on corporate histories, congressional testimony, trade publications (<em>Aviation Week &amp; Space Technology</em>, <em>Aerospace America</em>, <em>Space News</em>), oral histories conducted by the American Institute of Aeronautics and Astronautics (AIAA) and the Smithsonian National Air and Space Museum, declassified government program records, and secondary historical literature on the defense industrial base.</p>
-<p>Where corporate history documents are cited, readers should note that corporate histories are commissioned works and may reflect the perspective of their sponsors. This is particularly true for the merger-era corporate histories produced in the 1990s, which tend to celebrate consolidation as visionary strategy rather than as forced response to demand collapse.</p>
-</section>
-<section id="summary" class="level2" data-number="1.6">
-<h2 data-number="1.6" class="anchored" data-anchor-id="summary"><span class="header-section-number">1.6</span> Summary</h2>
-<p>The American solid rocket industry is small, technically specialized, and geographically concentrated. Its corporate genealogy — the chains of acquisition, merger, and divestiture that ran from 1950 to the present — is less important than its practical genealogy: the continuous community of engineers, chemists, and program managers who carried its technical knowledge across every corporate transformation. The chapters that follow trace both genealogies, in the hope that the intersection illuminates both.</p>
-</section>
-<section id="further-reading" class="level2" data-number="1.7">
-<h2 data-number="1.7" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">1.7</span> Further Reading</h2>
-<ul>
-<li>Hunley, J.D. <em>The Development of Propulsion Technology for U.S. Space-Launch Vehicles, 1926–1991</em>. Texas A&amp;M University Press, 2007.</li>
-<li>Spinardi, Graham. <em>From Polaris to Trident: The Development of US Fleet Ballistic Missile Technology</em>. Cambridge University Press, 1994.</li>
-<li>Asker, James R. “The Solid Rocket Duopoly.” <em>Aviation Week &amp; Space Technology</em>, March 2019.</li>
-<li>United States General Accounting Office. <em>Defense Industrial Base: Trends in DoD Spending, Industrial Productivity, and Competition</em>. GAO/PEMD-97-3, 1997.</li>
-</ul>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -839,10 +723,13 @@ Figure&nbsp;1.1: Seven Cold War solid rocket motor lineages converging to the pr
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./introduction.html" class="pagination-link" aria-label="Introduction: The Incestuous Community">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction: The Incestuous Community</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./preface.html" class="pagination-link" aria-label="Preface">
-        <span class="nav-page-text">Preface</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./02-industry-origins.html" class="pagination-link" aria-label="The Founding Era: Explosives, JATO, and the Birth of an Industry">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Founding Era: Explosives, JATO, and the Birth of an Industry</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
