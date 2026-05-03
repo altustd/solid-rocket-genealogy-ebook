@@ -15,10 +15,10 @@ Corporate and technical history of the American solid rocket motor industry — 
 ## Contents
 
 **Preface**
-- [About This Book](https://altustd.github.io/solid-rocket-genealogy-ebook/index.html)
+- [About This Book](https://altustd.github.io/solid-rocket-genealogy-ebook/preface.html)
 
 **Part I: Origins and Lineages**
-- [Chapter 1 — Introduction: The Incestuous Community](https://altustd.github.io/solid-rocket-genealogy-ebook/01-introduction.html)
+- [Chapter 1 — Introduction: The Incestuous Community](https://altustd.github.io/solid-rocket-genealogy-ebook/index.html)
 - [Chapter 2 — The Founding Era: Explosives, JATO, and the Birth of an Industry](https://altustd.github.io/solid-rocket-genealogy-ebook/02-industry-origins.html)
 - [Chapter 3 — The Thiokol Lineage: From Rubber Chemistry to the Shuttle and Beyond](https://altustd.github.io/solid-rocket-genealogy-ebook/03-thiokol-lineage.html)
 - [Chapter 4 — The Hercules Lineage: From Dynamite to Trident](https://altustd.github.io/solid-rocket-genealogy-ebook/04-hercules-lineage.html)

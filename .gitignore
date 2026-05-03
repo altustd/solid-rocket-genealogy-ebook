@@ -8,3 +8,6 @@ __pycache__/
 files.zip
 
 /.quarto/
+
+# Local Netlify folder
+.netlify

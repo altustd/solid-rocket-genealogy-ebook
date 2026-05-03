@@ -1,0 +1,32 @@
+# Preface {.unnumbered}
+
+This book began as a question: how did the American solid rocket motor industry — one of the most technically specialized, capital-intensive, and strategically consequential industrial sectors ever created — end up in the hands of a salt company, a tire manufacturer, a jar maker, and a thermostat conglomerate?
+
+The answer turns out to be a history of industrial genealogy: of companies that split apart and recombined, of engineers who outlasted every corporate owner they worked for, and of propellant chemistry and design knowledge that transferred through people rather than through acquisition agreements.
+
+The phrase *incestuous community* appears in oral histories of the American solid rocket industry so often that it almost becomes invisible. Engineers say it about colleagues who left Thiokol for Hercules and came back. Program managers say it about competitors who share the same propellant formulations derived from the same government research. Historians say it about corporate families where the same assets traded between the same holding companies across three decades.
+
+This book traces the lineages. It is organized not by chronology but by bloodline — by corporate ancestor. Each chapter follows a single genealogical thread from its origin to its present form, then steps back to show how the threads braided together.
+
+## What This Book Is {.unnumbered}
+
+A corporate and technical history of the American solid rocket motor industry from approximately 1912 to the present. The focus is on solid propulsion for strategic systems — ballistic missiles and their boosters — with secondary attention to space launch applications where they directly follow from the military heritage.
+
+This is not a hagiography of engineers or a polemic about the defense industry. It is an attempt to understand how a technically coherent community of practice survived, through every corporate reorganization, the continuous institutional memory that the weapons required.
+
+## What This Book Is Not {.unnumbered}
+
+This is not a technical handbook on solid propellant chemistry, internal ballistics, or motor design. Some technical context appears where it illuminates the business or historical narrative — why a particular formulation mattered, what made case design difficult — but readers seeking engineering depth should consult the technical literature.
+
+It is also not a comprehensive catalog of every solid rocket program. Programs appear when they shaped the corporate genealogy or when their history illustrates the broader argument.
+
+## How to Read It {.unnumbered}
+
+The chapters are organized by lineage. You may read them in order — the sequence follows a rough chronological logic within each corporate family — or you may follow a single thread from introduction to conclusion. The final two chapters synthesize the consolidation story and its implications.
+
+A reader with deep familiarity with one lineage (say, Thiokol from the Challenger inquiry) will find the corporate context of adjacent lineages illuminating. A reader new to the industry may find it useful to read the Introduction (@sec-introduction) first, then dip into the lineages in any order.
+
+---
+
+*Troy Altus*
+*April 2026*

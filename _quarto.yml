@@ -12,9 +12,9 @@ book:
   repo-url: https://github.com/altustd/solid-rocket-genealogy-ebook
   chapters:
     - index.qmd
+    - preface.qmd
     - part: "Part I: Origins and Lineages"
       chapters:
-        - 01-introduction.qmd
         - 02-industry-origins.qmd
         - 03-thiokol-lineage.qmd
         - 04-hercules-lineage.qmd
