@@ -1,6 +1,8 @@
 project:
   type: book
   output-dir: docs
+  resources:
+    - solid_rocket_corporate_genealogy.html
 
 book:
   title: "An Incestuous Community"

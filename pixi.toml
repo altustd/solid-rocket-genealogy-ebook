@@ -1,4 +1,4 @@
-[project]
+[workspace]
 name = "solid-rocket-genealogy-ebook"
 version = "1.0.0"
 description = "Genealogy of the American solid rocket motor industry"

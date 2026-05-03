@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SRM Industry Corporate Genealogy, 1912–2024</title>
+<style>
+:root {
+  --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", monospace;
+  --color-text-primary: #111827;
+  --color-text-secondary: #6B7280;
+  --color-text-tertiary: #9CA3AF;
+  --color-background-primary: #FFFFFF;
+  --color-background-secondary: #F9FAFB;
+  --color-border-secondary: #E5E7EB;
+  --color-border-tertiary: #F3F4F6;
+  --border-radius-lg: 8px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans);background:var(--color-background-primary);color:var(--color-text-primary);padding:1.25rem}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;align-items:center}
+.filter-btn{font-size:11px;padding:4px 12px;border-radius:99px;border:0.5px solid var(--color-border-secondary);background:transparent;color:var(--color-text-secondary);cursor:pointer;transition:all .15s}
+.filter-btn.active{color:#fff;border-color:transparent}
+.filter-btn.all.active{background:#444441}
+.filter-btn.ng.active{background:#185FA5}
+.filter-btn.ar.active{background:#0F6E56}
+.filter-btn.ind.active{background:#854F0B}
+.timeline-wrap{position:relative;overflow:hidden}
+.year-axis{display:flex;border-bottom:0.5px solid var(--color-border-secondary);margin-bottom:0;position:relative;height:28px}
+.year-tick{position:absolute;bottom:4px;font-size:10px;color:var(--color-text-tertiary);font-family:var(--font-mono,monospace);transform:translateX(-50%)}
+.year-line{position:absolute;top:0;bottom:0;width:0.5px;background:var(--color-border-tertiary)}
+.lanes{position:relative}
+.lane{display:flex;align-items:center;min-height:38px;border-bottom:0.5px solid var(--color-border-tertiary);position:relative}
+.lane:last-child{border-bottom:none}
+.lane-label{width:148px;flex-shrink:0;font-size:11px;color:var(--color-text-tertiary);padding:0 8px 0 0;text-align:right;line-height:1.3;user-select:none}
+.lane-track{flex:1;position:relative;height:38px}
+.bar{position:absolute;top:9px;height:20px;border-radius:3px;cursor:pointer;transition:opacity .15s;display:flex;align-items:center;padding:0 6px;overflow:hidden}
+.bar:hover{opacity:.8}
+.bar-label{font-size:10px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar.ng-color{background:#E6F1FB;border:0.5px solid #185FA5}
+.bar.ng-color .bar-label{color:#0C447C}
+.bar.ar-color{background:#E1F5EE;border:0.5px solid #0F6E56}
+.bar.ar-color .bar-label{color:#085041}
+.bar.ind-color{background:#FAEEDA;border:0.5px solid #854F0B}
+.bar.ind-color .bar-label{color:#633806}
+.bar.dim{opacity:.18;pointer-events:none}
+.event-dot{position:absolute;top:50%;transform:translate(-50%,-50%);width:7px;height:7px;border-radius:50%;cursor:pointer;border:1.5px solid var(--color-background-primary);z-index:2}
+.event-dot.acq{background:#E24B4A}
+.event-dot.merge{background:#7F77DD}
+.event-dot.found{background:#639922}
+.event-dot.spin{background:#EF9F27}
+.event-dot:hover{transform:translate(-50%,-50%) scale(1.5)}
+.detail-panel{background:var(--color-background-primary);border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-lg);padding:1rem 1.25rem;margin-top:1rem;min-height:80px}
+.dp-eyebrow{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:4px}
+.dp-name{font-size:16px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.dp-meta{font-size:12px;color:var(--color-text-secondary);line-height:1.6}
+.dp-programs{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.dp-prog{font-size:10px;padding:2px 8px;border-radius:99px;background:var(--color-background-secondary);color:var(--color-text-secondary);border:0.5px solid var(--color-border-tertiary)}
+.legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:.75rem;padding-top:.75rem;border-top:0.5px solid var(--color-border-tertiary)}
+.leg-item{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--color-text-secondary)}
+.leg-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.leg-bar{width:14px;height:8px;border-radius:2px;flex-shrink:0}
+</style>
+</head>
+<body>
+
+<h2 class="sr-only">Interactive corporate genealogy of the American solid rocket motor industry, 1912–2023, showing how seven Cold War companies converged into two survivors.</h2>
+
+<div class="controls">
+  <button class="filter-btn all active" onclick="setFilter('all',this)">All lineages</button>
+  <button class="filter-btn ng" onclick="setFilter('ng',this)">Northrop Grumman path</button>
+  <button class="filter-btn ar" onclick="setFilter('ar',this)">Aerojet Rocketdyne path</button>
+  <button class="filter-btn ind" onclick="setFilter('ind',this)">Independent / other</button>
+</div>
+
+<div class="timeline-wrap">
+  <div class="year-axis" id="yaxis"></div>
+  <div class="lanes" id="lanes"></div>
+</div>
+
+<div class="detail-panel" id="detail">
+  <div class="dp-eyebrow">Click any bar or event marker to explore</div>
+  <div class="dp-name" style="color:var(--color-text-secondary);font-weight:400;font-size:13px">Seven lineages, two survivors — an incestuous community of engineers who outlasted every corporate name on their badge.</div>
+</div>
+
+<div class="legend">
+  <span class="leg-item"><span class="leg-bar" style="background:#E6F1FB;border:0.5px solid #185FA5"></span>→ Northrop Grumman IS</span>
+  <span class="leg-item"><span class="leg-bar" style="background:#E1F5EE;border:0.5px solid #0F6E56"></span>→ Aerojet Rocketdyne / L3Harris</span>
+  <span class="leg-item"><span class="leg-bar" style="background:#FAEEDA;border:0.5px solid #854F0B"></span>Independent / conglomerate phase</span>
+  <span class="leg-item"><span class="leg-dot" style="background:#639922"></span>Founded</span>
+  <span class="leg-item"><span class="leg-dot" style="background:#E24B4A"></span>Acquired</span>
+  <span class="leg-item"><span class="leg-dot" style="background:#7F77DD"></span>Merged</span>
+  <span class="leg-item"><span class="leg-dot" style="background:#EF9F27"></span>Spun off</span>
+</div>
+
+<script>
+const MIN_YEAR = 1912, MAX_YEAR = 2024;
+const TRACK_W = () => document.getElementById('lanes').clientWidth - 148;
+
+function pct(yr){ return ((yr - MIN_YEAR)/(MAX_YEAR - MIN_YEAR))*100; }
+function px(yr){ return pct(yr)/100 * TRACK_W(); }
+
+const YEARS = [1912,1930,1942,1955,1966,1980,1990,2000,2010,2024];
+
+const lanes = [
+  {
+    id:'thiokol', label:'Thiokol lineage', destiny:'ng',
+    bars:[
+      {from:1929,to:1982,label:'Thiokol Chemical',cls:'ind-color'},
+      {from:1982,to:1989,label:'Morton Thiokol',cls:'ind-color'},
+      {from:1989,to:1998,label:'Thiokol Corp.',cls:'ng-color'},
+      {from:1998,to:2001,label:'Cordant Technologies',cls:'ng-color'},
+      {from:2001,to:2018,label:'ATK / Orbital ATK',cls:'ng-color'},
+      {from:2018,to:2024,label:'Northrop Grumman IS',cls:'ng-color'},
+    ],
+    events:[
+      {yr:1929,type:'found',label:'Thiokol Chemical Corp. founded — polysulfide rubber chemistry'},
+      {yr:1982,type:'acq',label:'Morton International acquires Thiokol (~$200M) → Morton Thiokol'},
+      {yr:1989,type:'spin',label:'Morton spins off Thiokol as independent company after Challenger fallout'},
+      {yr:1996,type:'acq',label:'UTC Chemical Systems Division absorbed into Thiokol / Cordant'},
+      {yr:2001,type:'acq',label:'ATK acquires Cordant/Thiokol propulsion assets for $2.9B'},
+      {yr:2015,type:'merge',label:'ATK merges with Orbital Sciences → Orbital ATK'},
+      {yr:2018,type:'acq',label:'Northrop Grumman acquires Orbital ATK for $7.8B'},
+    ],
+    programs:['Minuteman I/II Stage 1','Space Shuttle SRB (4-seg)','SLS SRB (5-seg)','Peacekeeper Stage 1','Trident II D5'],
+    desc:'Origins in polysulfide rubber polymer chemistry. Built the Shuttle SRBs and remains the primary strategic SRM producer under Northrop Grumman at Promontory, UT.'
+  },
+  {
+    id:'hercules', label:'Hercules lineage', destiny:'ng',
+    bars:[
+      {from:1912,to:1966,label:'Hercules Powder Co.',cls:'ind-color'},
+      {from:1966,to:1995,label:'Hercules, Inc.',cls:'ind-color'},
+      {from:1995,to:2001,label:'ATK (Hercules)',cls:'ng-color'},
+      {from:2001,to:2018,label:'ATK / Orbital ATK',cls:'ng-color'},
+      {from:2018,to:2024,label:'Northrop Grumman IS',cls:'ng-color'},
+    ],
+    events:[
+      {yr:1912,type:'found',label:'Hercules Powder Co. created by federal antitrust order (US v. DuPont) — inherits explosives expertise'},
+      {yr:1966,type:'spin',label:'Renamed Hercules, Inc. — aerospace division growing'},
+      {yr:1995,type:'acq',label:'ATK acquires Hercules Aerospace for ~$450M'},
+      {yr:2018,type:'acq',label:'Now part of Northrop Grumman Innovation Systems'},
+    ],
+    programs:['Polaris','Trident I & II (all stages)','Minuteman III Stage 3','Peacekeeper Stage 3','Pegasus XL'],
+    desc:'Created by court order from DuPont\'s explosives empire. Built virtually every Polaris/Trident stage and remains the DNA of Northrop\'s Utah facilities.'
+  },
+  {
+    id:'utc', label:'UTC Chemical Systems', destiny:'ng',
+    bars:[
+      {from:1960,to:1996,label:'UTC Chemical Systems Div.',cls:'ind-color'},
+      {from:1996,to:2001,label:'Absorbed → Thiokol',cls:'ng-color'},
+    ],
+    events:[
+      {yr:1960,type:'found',label:'United Technologies Corp. Chemical Systems Division — Sunnyvale, CA'},
+      {yr:1996,type:'acq',label:'UTC sells CSD to Thiokol / Cordant Technologies (price undisclosed)'},
+    ],
+    programs:['Titan stages','Space Shuttle OMS','Various upper stages'],
+    desc:'UTC\'s Sunnyvale propulsion lab brought advanced propellant chemistry into the Thiokol/Cordant family in 1996.'
+  },
+  {
+    id:'orbital', label:'Orbital Sciences', destiny:'ng',
+    bars:[
+      {from:1982,to:2015,label:'Orbital Sciences Corp.',cls:'ind-color'},
+      {from:2015,to:2018,label:'Orbital ATK',cls:'ng-color'},
+      {from:2018,to:2024,label:'Northrop Grumman IS',cls:'ng-color'},
+    ],
+    events:[
+      {yr:1982,type:'found',label:'Orbital Sciences Corp. founded — small satellite and launch vehicle startup'},
+      {yr:2015,type:'merge',label:'ATK Aerospace merges with Orbital Sciences → Orbital ATK'},
+      {yr:2018,type:'acq',label:'Northrop Grumman acquires Orbital ATK for $7.8B'},
+    ],
+    programs:['Pegasus XL','Antares (casings)','LGM-35A Sentinel (prime)'],
+    desc:'Small-launch pioneer that merged with ATK to form Orbital ATK, later acquired by Northrop Grumman to consolidate the NG path.'
+  },
+  {
+    id:'aerojet', label:'Aerojet lineage', destiny:'ar',
+    bars:[
+      {from:1942,to:1984,label:'Aerojet (General Tire)',cls:'ind-color'},
+      {from:1984,to:2013,label:'GenCorp / Aerojet',cls:'ar-color'},
+      {from:2013,to:2023,label:'Aerojet Rocketdyne',cls:'ar-color'},
+      {from:2023,to:2024,label:'L3Harris / Aerojet RD',cls:'ar-color'},
+    ],
+    events:[
+      {yr:1942,type:'found',label:'Aerojet Engineering Corp. founded by Caltech GALCIT alumni; General Tire invests as majority shareholder'},
+      {yr:1984,type:'spin',label:'General Tire restructures as GenCorp holding company'},
+      {yr:2002,type:'acq',label:'Aerojet acquires General Dynamics Space Propulsion (ex-Olin/Primex)'},
+      {yr:2003,type:'acq',label:'Aerojet acquires Atlantic Research Corp. from Sequa'},
+      {yr:2013,type:'acq',label:'GenCorp acquires Pratt & Whitney Rocketdyne for $550M → Aerojet Rocketdyne'},
+      {yr:2022,type:'acq',label:'FTC blocks Lockheed Martin acquisition 4-0 ($4.4B deal collapses)'},
+      {yr:2023,type:'acq',label:'L3Harris acquires Aerojet Rocketdyne for $4.7B'},
+    ],
+    programs:['Minuteman II Stage 2','Peacekeeper Stage 2','Titan SRBs','JATO units','Evolved Upper Stage'],
+    desc:'Founded by Caltech rocket scientists, bankrolled by a tire company, now owned by a defense electronics firm. The most traveled lineage in the genealogy.'
+  },
+  {
+    id:'arc', label:'Atlantic Research Corp.', destiny:'ar',
+    bars:[
+      {from:1950,to:1994,label:'Atlantic Research Corp.',cls:'ind-color'},
+      {from:1994,to:2003,label:'ARC / Sequa Corp.',cls:'ind-color'},
+      {from:2003,to:2024,label:'Absorbed → Aerojet',cls:'ar-color'},
+    ],
+    events:[
+      {yr:1950,type:'found',label:'Atlantic Research Corporation founded in Alexandria, VA — early JATO and tactical SRMs'},
+      {yr:1994,type:'acq',label:'Sequa Corporation acquires ARC'},
+      {yr:2003,type:'acq',label:'Aerojet acquires ARC from Sequa (undisclosed)'},
+    ],
+    programs:['JATO bottles','MK-58 ASROC motor','Shrike missile motor'],
+    desc:'Independent research house that pioneered JATO and tactical propulsion. Absorbed into Aerojet in 2003, adding Alexandria/Camden facilities.'
+  },
+  {
+    id:'olin', label:'Olin / Primex / GD lineage', destiny:'ar',
+    bars:[
+      {from:1960,to:1985,label:'Rocket Research Corp.',cls:'ind-color'},
+      {from:1985,to:1996,label:'Olin Aerospace',cls:'ind-color'},
+      {from:1996,to:2001,label:'Primex Technologies',cls:'ind-color'},
+      {from:2001,to:2002,label:'GD Space Propulsion',cls:'ind-color'},
+      {from:2002,to:2024,label:'Absorbed → Aerojet',cls:'ar-color'},
+    ],
+    events:[
+      {yr:1960,type:'found',label:'Rocket Research Corp. founded in Redmond, WA — monopropellant specialist'},
+      {yr:1985,type:'acq',label:'Olin Corporation acquires Rocket Research → Olin Aerospace'},
+      {yr:1996,type:'acq',label:'Olin sells aerospace unit → Primex Technologies'},
+      {yr:2001,type:'acq',label:'General Dynamics acquires Primex → GD Space Propulsion'},
+      {yr:2002,type:'acq',label:'Aerojet acquires GD Space Propulsion business'},
+    ],
+    programs:['Monopropellant ACS thrusters','Peacekeeper Stage 4 (partial)'],
+    desc:'Five names in 40 years: Rocket Research → Olin Aerospace → Primex → General Dynamics → Aerojet. A case study in the "incestuous" reshuffling.'
+  },
+  {
+    id:'rocketdyne', label:'Rocketdyne lineage', destiny:'ar',
+    bars:[
+      {from:1955,to:1967,label:'Rocketdyne (N. American)',cls:'ind-color'},
+      {from:1967,to:1996,label:'Rockwell / Rocketdyne',cls:'ind-color'},
+      {from:1996,to:2005,label:'Boeing Rocketdyne',cls:'ind-color'},
+      {from:2005,to:2013,label:'P&W Rocketdyne (UTC)',cls:'ind-color'},
+      {from:2013,to:2023,label:'Aerojet Rocketdyne',cls:'ar-color'},
+      {from:2023,to:2024,label:'L3Harris / Aerojet RD',cls:'ar-color'},
+    ],
+    events:[
+      {yr:1955,type:'found',label:'Rocketdyne Division established within North American Aviation — liquid rocket focus'},
+      {yr:1967,type:'merge',label:'North American Aviation merges with Rockwell-Standard → North American Rockwell'},
+      {yr:1996,type:'acq',label:'Boeing acquires Rockwell International (incl. Rocketdyne)'},
+      {yr:2005,type:'acq',label:'Pratt & Whitney / UTC acquires Rocketdyne from Boeing for $700M'},
+      {yr:2013,type:'acq',label:'GenCorp acquires P&W Rocketdyne for $550M → Aerojet Rocketdyne'},
+    ],
+    programs:['F-1 engine (Saturn V)','RS-25 (Space Shuttle SSME)','RL-10 (upper stage)','RS-68 (Delta IV)'],
+    desc:'Primarily a liquid-propulsion powerhouse. Marginal solid capability, but its merger into Aerojet Rocketdyne 2013 completed that family\'s consolidation.'
+  },
+];
+
+let activeFilter = 'all';
+let selectedId = null;
+
+function setFilter(f, btn){
+  activeFilter = f;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderBars();
+}
+
+function renderAxis(){
+  const ax = document.getElementById('yaxis');
+  ax.style.position = 'relative';
+  ax.innerHTML = '<div style="width:148px;flex-shrink:0"></div><div style="flex:1;position:relative">' +
+    YEARS.map(y=>{
+      const p = pct(y);
+      return `<span class="year-tick" style="left:${p}%">${y}</span>`;
+    }).join('') + '</div>';
+}
+
+function renderBars(){
+  const container = document.getElementById('lanes');
+  container.innerHTML = '';
+  const tw = TRACK_W();
+
+  lanes.forEach(lane => {
+    const show = activeFilter==='all' ||
+      (activeFilter==='ng' && lane.destiny==='ng') ||
+      (activeFilter==='ar' && lane.destiny==='ar') ||
+      (activeFilter==='ind');
+
+    const div = document.createElement('div');
+    div.className = 'lane';
+    div.innerHTML = `<div class="lane-label">${lane.label}</div><div class="lane-track" id="track-${lane.id}"></div>`;
+    container.appendChild(div);
+
+    const track = div.querySelector('.lane-track');
+
+    lane.bars.forEach(bar=>{
+      const left = px(bar.from);
+      const width = Math.max(px(bar.to)-px(bar.from), 4);
+      const el = document.createElement('div');
+      el.className = 'bar ' + bar.cls + (show ? '' : ' dim');
+      el.style.cssText = `left:${left}px;width:${width}px`;
+      el.innerHTML = `<span class="bar-label">${bar.label}</span>`;
+      el.onclick = ()=>showDetail(lane);
+      track.appendChild(el);
+    });
+
+    lane.events.forEach(ev=>{
+      const left = px(ev.yr);
+      const dot = document.createElement('div');
+      dot.className = `event-dot ${ev.type}`;
+      dot.style.cssText = `left:${left}px`;
+      dot.title = ev.label;
+      dot.onclick = (e)=>{ e.stopPropagation(); showEvent(lane, ev); };
+      track.appendChild(dot);
+    });
+  });
+}
+
+function showDetail(lane){
+  selectedId = lane.id;
+  const dp = document.getElementById('detail');
+  const destLabel = lane.destiny==='ng' ? 'Northrop Grumman IS' : lane.destiny==='ar' ? 'L3Harris / Aerojet Rocketdyne' : 'Independent';
+  dp.innerHTML = `
+    <div class="dp-eyebrow">${destLabel} heritage</div>
+    <div class="dp-name">${lane.label}</div>
+    <div class="dp-meta">${lane.desc}</div>
+    <div class="dp-programs">${lane.programs.map(p=>`<span class="dp-prog">${p}</span>`).join('')}</div>
+  `;
+}
+
+function showEvent(lane, ev){
+  const dp = document.getElementById('detail');
+  const typeLabel = {found:'Founded',acq:'Acquired',merge:'Merged',spin:'Spun off'}[ev.type]||ev.type;
+  dp.innerHTML = `
+    <div class="dp-eyebrow">${ev.yr} — ${typeLabel}</div>
+    <div class="dp-name" style="font-size:14px;font-weight:400">${ev.label}</div>
+    <div class="dp-meta" style="margin-top:6px;font-size:11px">Part of: ${lane.label}</div>
+  `;
+}
+
+renderAxis();
+renderBars();
+window.addEventListener('resize', ()=>{ renderAxis(); renderBars(); });
+</script>
+</body>
+</html>
