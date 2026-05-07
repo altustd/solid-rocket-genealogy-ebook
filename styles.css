@@ -1,3 +1,324 @@
+/* ============================================================
+   Solid Rocket Genealogy — Custom Theme
+   Deep charcoal + rocket-exhaust orange, archival editorial feel
+   ============================================================ */
+
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500&display=swap');
+
+/* --- Root palette --- */
+:root {
+  --srg-charcoal:    #1a1a1a;
+  --srg-charcoal-mid:#2c2c2c;
+  --srg-charcoal-soft:#3d3d3d;
+  --srg-orange:      #e8621a;
+  --srg-orange-dim:  #b84d13;
+  --srg-sand:        #c8a96e;
+  --srg-sand-light:  #f0e6d0;
+  --srg-cream:       #faf7f2;
+  --srg-text:        #1e1e1e;
+  --srg-muted:       #6b6b6b;
+  --srg-rule:        #ddd5c8;
+  --srg-card:        #ffffff;
+  --srg-blue-steel:  #4a7fa5;
+}
+
+/* ============================================================
+   BODY & BASE TYPOGRAPHY
+   ============================================================ */
+
+body {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 17px;
+  line-height: 1.82;
+  color: var(--srg-text);
+  background-color: var(--srg-cream);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-weight: 700;
+  color: var(--srg-charcoal);
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  font-size: 2.15rem;
+  border-bottom: 3px solid var(--srg-orange);
+  padding-bottom: 0.4rem;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--srg-rule);
+  padding-bottom: 0.2rem;
+  margin-top: 2.4rem;
+}
+
+h3 {
+  font-size: 1.18rem;
+  color: var(--srg-charcoal-soft);
+}
+
+p { margin-bottom: 1.15rem; }
+
+a {
+  color: var(--srg-orange-dim);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+a:hover { border-bottom-color: var(--srg-orange); }
+
+/* ============================================================
+   SIDEBAR — DEEP CHARCOAL
+   ============================================================ */
+
+.sidebar, #quarto-sidebar {
+  background-color: var(--srg-charcoal) !important;
+  border-right: none !important;
+}
+
+.sidebar .nav-link, .sidebar a,
+#quarto-sidebar .nav-link, #quarto-sidebar a {
+  color: #c8c0b4 !important;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.88rem;
+}
+
+.sidebar .nav-link:hover,
+#quarto-sidebar .nav-link:hover {
+  color: var(--srg-orange) !important;
+  background: rgba(232, 98, 26, 0.1) !important;
+  border-radius: 4px;
+}
+
+.sidebar .nav-link.active,
+#quarto-sidebar .nav-link.active {
+  color: var(--srg-orange) !important;
+  font-weight: 600;
+  background: rgba(232, 98, 26, 0.14) !important;
+  border-left: 3px solid var(--srg-orange);
+  border-radius: 0 4px 4px 0;
+}
+
+.sidebar .sidebar-section-item,
+#quarto-sidebar .sidebar-section-item {
+  color: #8a7f70 !important;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-weight: 700;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.sidebar .title,
+#quarto-sidebar .title,
+.sidebar-title {
+  color: #ffffff !important;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 700;
+}
+
+/* ============================================================
+   NAVBAR / HEADER
+   ============================================================ */
+
+.navbar, header.quarto-header {
+  background-color: var(--srg-charcoal) !important;
+  border-bottom: 2px solid var(--srg-orange) !important;
+}
+
+.navbar .navbar-brand, .navbar-brand-container a {
+  color: #ffffff !important;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 700;
+}
+
+.navbar .nav-link { color: #c8c0b4 !important; }
+.navbar .nav-link:hover { color: var(--srg-orange) !important; }
+
+/* ============================================================
+   MAIN CONTENT AREA
+   ============================================================ */
+
+#quarto-content main, .content {
+  max-width: 820px;
+}
+
+/* Chapter number accent */
+.chapter-number {
+  color: var(--srg-orange);
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+/* Hide chapter section number in H1 (preserve existing behavior) */
 h1 .header-section-number {
   display: none;
+}
+
+/* ============================================================
+   CALLOUT BLOCKS
+   ============================================================ */
+
+/* Note — blue steel */
+.callout-note {
+  border-left: 5px solid var(--srg-blue-steel) !important;
+  background: linear-gradient(135deg, #eaf2f8 0%, #f2f7fb 100%) !important;
+}
+.callout-note .callout-header { background: transparent !important; color: #2c5f7a !important; }
+
+/* Tip — sand/gold */
+.callout-tip {
+  border-left: 5px solid var(--srg-sand) !important;
+  background: linear-gradient(135deg, #fdf6e3 0%, #fefbf3 100%) !important;
+}
+.callout-tip .callout-header { background: transparent !important; color: #8a6914 !important; }
+
+/* Warning — orange */
+.callout-warning {
+  border-left: 5px solid var(--srg-orange) !important;
+  background: linear-gradient(135deg, #fdf0e8 0%, #fef8f4 100%) !important;
+}
+.callout-warning .callout-header { background: transparent !important; color: #b84d13 !important; }
+
+/* Important — deep red */
+.callout-important {
+  border-left: 5px solid #c0392b !important;
+  background: linear-gradient(135deg, #fdecea 0%, #fff5f4 100%) !important;
+}
+.callout-important .callout-header { background: transparent !important; color: #922b21 !important; }
+
+.callout { border-radius: 0 8px 8px 0; box-shadow: 0 1px 5px rgba(0,0,0,0.07); }
+
+/* ============================================================
+   TABLES
+   ============================================================ */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+thead tr {
+  background-color: var(--srg-charcoal);
+  color: #ffffff;
+}
+
+thead th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+tbody tr { background: var(--srg-card); }
+tbody tr:nth-child(even) { background: #f5f0e8; }
+tbody tr:hover { background: #ede5d4; }
+
+tbody td {
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--srg-rule);
+  vertical-align: top;
+}
+
+/* ============================================================
+   BLOCKQUOTES — archival pull-quote style
+   ============================================================ */
+
+blockquote {
+  border-left: 5px solid var(--srg-sand);
+  background: linear-gradient(135deg, #fdf8ef 0%, #fefcf6 100%);
+  margin: 2rem 0;
+  padding: 1.1rem 1.6rem;
+  border-radius: 0 6px 6px 0;
+  font-style: italic;
+  font-size: 1.05em;
+  color: #3a3028;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.07);
+}
+
+blockquote p:last-child { margin-bottom: 0; }
+
+/* ============================================================
+   FIGURES & CAPTIONS
+   ============================================================ */
+
+figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+figcaption, .figure-caption {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.85rem;
+  color: var(--srg-muted);
+  font-style: italic;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* ============================================================
+   TOC (right-hand)
+   ============================================================ */
+
+#TOC, nav#TOC {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.84rem;
+  border-left: 3px solid var(--srg-rule);
+  padding-left: 1rem;
+}
+
+#TOC a { color: var(--srg-muted) !important; border: none; }
+#TOC a:hover { color: var(--srg-orange-dim) !important; }
+#TOC a.active { color: var(--srg-charcoal) !important; font-weight: 600; }
+
+/* ============================================================
+   MERMAID DIAGRAMS — override neutral theme with cream bg
+   ============================================================ */
+
+.mermaid svg {
+  background: var(--srg-cream) !important;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+footer, .nav-footer {
+  background-color: var(--srg-charcoal) !important;
+  color: #8a7f70 !important;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.82rem;
+  border-top: 2px solid var(--srg-orange);
+}
+
+footer a { color: var(--srg-orange) !important; }
+
+/* ============================================================
+   SCROLLBAR (webkit)
+   ============================================================ */
+
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar-track { background: var(--srg-cream); }
+::-webkit-scrollbar-thumb { background: #bdb0a0; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--srg-charcoal-soft); }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 768px) {
+  body { font-size: 15.5px; }
+  h1 { font-size: 1.7rem; }
+  h2 { font-size: 1.28rem; }
 }
